@@ -1,0 +1,24 @@
+<main>
+  <form class="login" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" formControlName="username" />
+      <div *ngIf="username?.invalid && (username?.dirty || username?.touched)">
+        <div *ngIf="!username?.errors?.['required']">Username is required.</div>
+      </div>
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" formControlName="password" />
+      <div *ngIf="password?.invalid && (password?.dirty || password?.touched)">
+        <div *ngIf="!password?.errors?.['required']">Password is required.</div>
+        <div *ngIf="!password?.errors?.['minlength']">
+          Password must be at least 6 characters long.
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="loginForm.invalid">Login</button>
+  </form>
+</main>

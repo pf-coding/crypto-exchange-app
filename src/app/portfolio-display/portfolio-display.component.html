@@ -1,0 +1,8 @@
+<!-- portfolio-display.component.html -->
+
+<div class="portfolio">
+  <div *ngFor="let asset of getPortfolioKeys()">
+    <span class="asset-name">{{ asset }}/USD:</span>
+    <span class="asset-rate">{{ portfolio[asset] }}</span>
+  </div>
+</div>

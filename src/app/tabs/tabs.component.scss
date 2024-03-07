@@ -1,0 +1,31 @@
+// tabs.component.scss
+@import "bourbon";
+
+// Colors
+$greenSeaweed: rgba(2, 128, 144, 1);
+$blueQueen: rgba(69, 105, 144, 1);
+$redFire: rgba(244, 91, 105, 1);
+
+// Fonts
+$fontAsap: "Asap", sans-serif;
+
+.nav-tabs {
+  background-color: $greenSeaweed;
+}
+
+.nav-link {
+  color: white;
+  font-family: $fontAsap;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: darken($greenSeaweed, 10%);
+  }
+
+  &.active {
+    background-color: $blueQueen;
+  }
+}

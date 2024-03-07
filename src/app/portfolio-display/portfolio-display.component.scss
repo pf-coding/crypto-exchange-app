@@ -1,0 +1,27 @@
+/* portfolio-display.component.scss */
+
+.portfolio {
+  padding: 1em;
+}
+
+.portfolio > div {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.asset-name {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.asset-rate {
+  color: #28a745;
+}
+
+.portfolio > div:hover {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}

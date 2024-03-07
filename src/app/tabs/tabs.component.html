@@ -1,0 +1,12 @@
+<!-- tabs.component.html -->
+<ul class="nav nav-tabs">
+  <li class="nav-item" *ngFor="let tab of tabs; let i = index">
+    <a
+      class="nav-link"
+      [class.active]="i === activeTabIndex"
+      (click)="setActiveTab(i)"
+      [routerLink]="getRouterLink(tab.label)"
+      >{{ tab.label }}</a
+    >
+  </li>
+</ul>

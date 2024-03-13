@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'portfolio-display', component: PortfolioDisplayComponent },
+  { path: 'tabs/:content', component: CryptoDisplayComponent },
 ];
 
 @NgModule({

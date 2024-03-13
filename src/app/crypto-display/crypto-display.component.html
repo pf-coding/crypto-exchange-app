@@ -1,3 +1,14 @@
-<!-- crypto-display.component.html -->
-<h2>Crypto Content for: {{ cryptocurrency.label }}</h2>
-<!-- Add your dynamic content display logic here -->
+<div class="container">
+  <app-tabs></app-tabs>
+  <div *ngIf="cryptocurrency" class="cryptocurrency-display">
+    <h1>{{ cryptocurrency.label }}</h1>
+    <p>
+      Ide tenném a diagramot. Ha bekötöttem volna rendesen. Helyette itt ez a
+      szemléltető ábra!
+    </p>
+    <img
+      src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5kaqQr9kVrc/v4/1200x675.png"
+      alt="Description of the image"
+    />
+  </div>
+</div>

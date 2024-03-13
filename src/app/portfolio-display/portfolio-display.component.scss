@@ -1,27 +1,47 @@
-/* portfolio-display.component.scss */
+// portfolio-display.component.scss
 
-.portfolio {
+// Styling for the container holding the tabs and portfolio display
+.container {
   padding: 1em;
 }
 
-.portfolio > div {
+// Styling for the portfolio container
+.portfolio-container {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+// Styling for the portfolio label
+.portfolio-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+// Styling for each asset row in the portfolio display
+.portfolio-row {
   display: flex;
   align-items: center;
   font-size: 18px;
   margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out; // Apply transition to all rows
 }
 
+// Styling for the asset name
 .asset-name {
   font-weight: bold;
   margin-right: 10px;
   color: #007bff;
 }
 
+// Styling for the asset rate
 .asset-rate {
   color: #28a745;
 }
 
-.portfolio > div:hover {
+// Apply hover effect to each asset row
+.portfolio-row:hover {
   transform: scale(0.95);
-  transition: transform 0.2s ease-in-out;
 }

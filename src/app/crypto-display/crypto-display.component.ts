@@ -1,6 +1,7 @@
 // crypto-display.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CryptocurrencyService } from '../services/cryptocurrency.service';
 
 @Component({
   selector: 'app-crypto-display',
@@ -10,16 +11,23 @@ import { ActivatedRoute } from '@angular/router';
 export class CryptoDisplayComponent implements OnInit {
   cryptocurrency: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private cryptoService: CryptocurrencyService
+  ) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
+      console.log('Route Params:', params);
       const content = params['content'];
-      // Fetch data based on content (e.g., using your service)
-      this.cryptocurrency = {
-        label: content.toUpperCase(), // You can customize this based on your actual data
-        // Other properties...
-      };
+      if (content) {
+        this.cryptocurrency = {
+          label: content.toUpperCase(),
+          // Other properties...
+        };
+      } else {
+        console.error("Route parameter 'content' is undefined.");
+      }
     });
   }
 }

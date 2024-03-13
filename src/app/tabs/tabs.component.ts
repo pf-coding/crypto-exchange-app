@@ -36,7 +36,7 @@ export class TabsComponent {
     );
 
     if (index !== -1) {
-      return [this.tabs[index].path];
+      return [this.tabs[index].path]; // Assuming each tab has a 'path' property
     }
 
     return ['/tabs']; // Default to the first tab if label is not found

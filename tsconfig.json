@@ -19,8 +19,8 @@
     "useDefineForClassFields": false,
     "lib": ["ES2022", "dom"],
     "skipLibCheck": true,
-    "target": "es2018", // or "es2020" or "es2022", based on your environment
-    "module": "esnext", // or "es2022" or "commonjs", based on your environment
+    "target": "ES2022", // or "es2020" or "es2022", based on your environment
+    "module": "ES2020", // or "es2022" or "commonjs", based on your environment
     "strict": true,
     "esModuleInterop": true
   },

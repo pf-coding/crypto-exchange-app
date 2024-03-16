@@ -479,6 +479,14 @@
         "label": "BITCOIN",
         "BITCOIN": 0.13775787014717533
       }
+    },
+    {
+      "id": "b066",
+      "timestamp": "2024-03-16T13:20:33.530Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1380765494869437
+      }
     }
   ]
 }

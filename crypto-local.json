@@ -735,6 +735,193 @@
         "label": "BITCOIN",
         "BITCOIN": 0.13944248540447376
       }
+    },
+    {
+      "id": "49cb",
+      "timestamp": "2024-03-16T15:28:12.250Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1406809872358403
+      }
+    },
+    {
+      "id": "4940",
+      "timestamp": "2024-03-16T15:28:16.770Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1406809915895169
+      }
+    },
+    {
+      "id": "8ae9",
+      "timestamp": "2024-03-16T15:29:17.528Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.14068360631016674
+      }
+    },
+    {
+      "id": "f52e",
+      "timestamp": "2024-03-16T15:29:22.494Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.14068357512864113
+      }
+    },
+    {
+      "id": "71b0",
+      "timestamp": "2024-03-16T15:29:27.549Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.1406771522991688
+      }
+    },
+    {
+      "id": "6c78",
+      "timestamp": "2024-03-16T15:30:32.505Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.14067989439269743
+      }
+    },
+    {
+      "id": "c2e9",
+      "timestamp": "2024-03-16T15:30:37.493Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.13926946810270016
+      }
+    },
+    {
+      "id": "6a7b",
+      "timestamp": "2024-03-16T15:30:42.513Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.1392595760197558
+      }
+    },
+    {
+      "id": "b9a7",
+      "timestamp": "2024-03-16T15:30:47.549Z",
+      "data": {
+        "label": "DOGECOIN",
+        "BITCOIN": 0.13925711626256654
+      }
+    },
+    {
+      "id": "f826",
+      "timestamp": "2024-03-16T15:33:34.117Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1402193313435056
+      }
+    },
+    {
+      "id": "f4ac",
+      "timestamp": "2024-03-16T15:45:00.231Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.141144826447653
+      }
+    },
+    {
+      "id": "cbe9",
+      "timestamp": "2024-03-16T15:46:01.449Z",
+      "data": {
+        "label": "BTC",
+        "BTC": 68246.32543787999
+      }
+    },
+    {
+      "id": "8baf",
+      "timestamp": "2024-03-16T15:47:02.758Z",
+      "data": {
+        "label": "ETH",
+        "BTC": 68302.33543768145
+      }
+    },
+    {
+      "id": "0e3b",
+      "timestamp": "2024-03-16T15:53:41.768Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.14113548749210403
+      }
+    },
+    {
+      "id": "a8b1",
+      "timestamp": "2024-03-16T15:57:46.498Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.14071909201924876
+      }
+    },
+    {
+      "id": "734f",
+      "timestamp": "2024-03-16T15:58:47.258Z",
+      "data": {
+        "label": "BTC",
+        "XRP": 0.6242643316708573
+      }
+    },
+    {
+      "id": "10e1",
+      "timestamp": "2024-03-16T15:59:47.765Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.15386165729916482
+      }
+    },
+    {
+      "id": "685b",
+      "timestamp": "2024-03-16T15:59:48.340Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.15386165729916482,
+        "ETH": 3677.1435112418576
+      }
+    },
+    {
+      "id": "3b8f",
+      "timestamp": "2024-03-16T15:59:48.976Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.15386165729916482,
+        "ETH": 3677.1435112418576,
+        "BTC": 68349.78388997163
+      }
+    },
+    {
+      "id": "83aa",
+      "timestamp": "2024-03-16T16:00:53.480Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.15336989283848287
+      }
+    },
+    {
+      "id": "175d",
+      "timestamp": "2024-03-16T16:00:58.814Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.153513175502168
+      }
+    },
+    {
+      "id": "df9a",
+      "timestamp": "2024-03-16T16:01:03.218Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.15349380143598873
+      }
+    },
+    {
+      "id": "f86f",
+      "timestamp": "2024-03-16T16:05:49.559Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13930201922102842
+      }
     }
   ]
 }

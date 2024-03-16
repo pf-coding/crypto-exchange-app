@@ -1,6 +1,7 @@
 import { Component, Input, TemplateRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog'; // Import MatDialog for modal functionality
+import { CryptoModalComponent } from '../crypto-modal/crypto-modal.component';
 
 @Component({
   selector: 'app-tabs',
@@ -12,9 +13,9 @@ export class TabsComponent {
 
   @ViewChild('addCryptoModal') addCryptoModal!: TemplateRef<any>;
   tabs = [
-    { label: 'BitCoin', content: 'Content for BitCoin', path: '/tabs/bitcoin' },
+    { label: 'BTC', content: 'Content for BitCoin', path: '/tabs/btc' },
     {
-      label: 'Etherium',
+      label: 'ETH',
       content: 'Content for Etherium',
       path: '/tabs/eth',
     },
@@ -24,27 +25,24 @@ export class TabsComponent {
       path: '/tabs/xrp',
     },
     {
-      label: 'Portfolio-display',
-      content: 'Content for Portfolio display',
-      path: '/portfolio-display',
+      label: 'DOGE',
+      content: 'Content for DOGE',
+      path: '/tabs/doge',
     },
-    { label: '+', content: 'Content for Add Tab', path: '/tabs/add' },
   ];
 
   activeTabIndex = 0;
-  showModal: boolean = false; // Flag to control modal visibility
-  newCryptoName: string = ''; // Variable to store new cryptocurrency name
+  showModal: boolean = false;
+  newCryptoName: string = '';
 
   constructor(private router: Router, private dialog: MatDialog) {}
-
-  ngOnInit(): void {}
 
   setActiveTab(index: number): void {
     this.activeTabIndex = index;
     const selectedLabel = this.tabs[index].label;
-    const selectedValue = this.cryptocurrency[selectedLabel.toLowerCase()]; // Assuming the cryptocurrency object keys are lowercase
+    const selectedValue = this.cryptocurrency[selectedLabel.toLowerCase()];
     const selectedData = {
-      id: '8dad', // Example ID
+      id: '8dad',
       timestamp: new Date().toISOString(),
       data: {
         label: selectedLabel.toUpperCase(),
@@ -59,32 +57,35 @@ export class TabsComponent {
     );
 
     if (index !== -1) {
-      return [this.tabs[index].path]; // Assuming each tab has a 'path' property
+      return [this.tabs[index].path];
     }
 
-    return ['/tabs']; // Default to the first tab if label is not found
+    return ['/tabs'];
   }
 
-  openModal() {
-    this.dialog.open(this.addCryptoModal);
+  addNewTab(newCryptoName: string): void {
+    const newTabLabel = prompt('Enter new cryptocurrency name:');
+    if (newTabLabel && newTabLabel.trim() !== '') {
+      const newTab = {
+        label: newTabLabel,
+        content: 'Content for ' + newTabLabel,
+        path: `/tabs/${newTabLabel.toLowerCase().replace(' ', '-')}`,
+      };
+      this.tabs.push(newTab); // Add the new tab to the end of the tabs array
+      this.activeTabIndex = this.tabs.length - 1; // Set the newly added tab as active
+    }
   }
 
-  // Method to close modal
-  closeModal() {
-    this.dialog.closeAll();
-    this.newCryptoName = ''; // Reset new cryptocurrency name
-  }
+  openModal(): void {
+    // Open the modal using MatDialog
+    const dialogRef = this.dialog.open(CryptoModalComponent);
 
-  // Method to add new tab
-  addNewTab() {
-    const newTab = {
-      label: this.newCryptoName,
-      content: 'Content for ' + this.newCryptoName,
-      path: `/tabs/${this.newCryptoName.toLowerCase().replace(' ', '-')}`,
-    };
-    this.tabs.push(newTab);
-    this.setActiveTab(this.tabs.length - 1); // Set newly added tab as active
-    // You may need to navigate to the new tab here depending on your routing setup
-    this.newCryptoName = ''; // Clear the input field
+    // Subscribe to the afterClosed event to handle modal closure
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        // Handle result data from the modal (e.g., add new tab)
+        this.addNewTab(result);
+      }
+    });
   }
 }

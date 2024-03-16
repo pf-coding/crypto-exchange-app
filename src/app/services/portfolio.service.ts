@@ -1,14 +1,7 @@
 // portfolio.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import {
-  Observable,
-  forkJoin,
-  throwError,
-  of,
-  EMPTY,
-  BehaviorSubject,
-} from 'rxjs';
+import { Observable, forkJoin, throwError, of, EMPTY } from 'rxjs';
 import { catchError, retryWhen, delay, switchMap } from 'rxjs/operators';
 
 @Injectable({
@@ -18,7 +11,6 @@ export class PortfolioService {
   private apiUrl = 'https://rest.coinapi.io/v1/exchangerate';
   private apiKey = '5714233D-4D13-40E3-AA4C-8376E0324561';
   private localData = 'http://localhost:3000/crypto-local';
-  private dataLoaded$ = new BehaviorSubject<boolean>(false); // BehaviorSubject to track data loading status
 
   constructor(private http: HttpClient) {}
 

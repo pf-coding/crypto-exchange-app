@@ -10,42 +10,7 @@
     >
   </li>
   <li class="nav-item">
-    <a class="nav-link" (click)="openModal()">+ Add New Cryptocurrency</a>
+    <a class="nav-link" (click)="openModal()">+</a>
   </li>
 </ul>
 <router-outlet></router-outlet>
-
-<!-- Add New Cryptocurrency Modal -->
-<ng-template #addCryptoModal let-modal>
-  <div class="modal-header">
-    <h4 class="modal-title" id="modal-basic-title">Add New Cryptocurrency</h4>
-    <button
-      type="button"
-      class="close"
-      aria-label="Close"
-      (click)="modal.dismiss()"
-    >
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <!-- Add form fields or dropdown for cryptocurrency selection here -->
-    <input
-      type="text"
-      [(ngModel)]="newCryptoName"
-      placeholder="Enter cryptocurrency name"
-    />
-  </div>
-  <div class="modal-footer">
-    <button
-      type="button"
-      class="btn btn-primary"
-      (click)="addNewTab(); modal.close()"
-    >
-      Add
-    </button>
-    <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">
-      Cancel
-    </button>
-  </div>
-</ng-template>

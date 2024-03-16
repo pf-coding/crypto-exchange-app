@@ -1,0 +1,484 @@
+{
+  "crypto-local": [
+    {
+      "id": "2a11",
+      "timestamp": "2024-03-16T10:48:27.711Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.14247097957455143
+      }
+    },
+    {
+      "id": "e3da",
+      "timestamp": "2024-03-16T10:49:28.758Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3709.1299902148203
+      }
+    },
+    {
+      "id": "c643",
+      "timestamp": "2024-03-16T10:50:31.379Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3709.1299902148203
+      }
+    },
+    {
+      "id": "4990",
+      "timestamp": "2024-03-16T10:51:29.993Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1401774920861359
+      }
+    },
+    {
+      "id": "a4c4",
+      "timestamp": "2024-03-16T10:52:30.573Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1405774920861359
+      }
+    },
+    {
+      "id": "0179",
+      "timestamp": "2024-03-16T10:53:34.100Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.63550692804205
+      }
+    },
+    {
+      "id": "758b",
+      "timestamp": "2024-03-16T11:38:24.654Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3689.0087122103578
+      }
+    },
+    {
+      "id": "1d4b",
+      "timestamp": "2024-03-16T11:38:28.560Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3687.5794235260696
+      }
+    },
+    {
+      "id": "d4ac",
+      "timestamp": "2024-03-16T11:39:41.111Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1386185221388591
+      }
+    },
+    {
+      "id": "1de7",
+      "timestamp": "2024-03-16T11:43:09.087Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13841601286005736
+      }
+    },
+    {
+      "id": "7e03",
+      "timestamp": "2024-03-16T11:44:12.275Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13849294935034753
+      }
+    },
+    {
+      "id": "043f",
+      "timestamp": "2024-03-16T11:45:13.870Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1389257343336173
+      }
+    },
+    {
+      "id": "eda0",
+      "timestamp": "2024-03-16T11:46:57.082Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13847613488445207
+      }
+    },
+    {
+      "id": "9baf",
+      "timestamp": "2024-03-16T11:49:05.363Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6320975611693751
+      }
+    },
+    {
+      "id": "703d",
+      "timestamp": "2024-03-16T11:50:11.152Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6315661208675181
+      }
+    },
+    {
+      "id": "ea40",
+      "timestamp": "2024-03-16T11:52:12.411Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6315724825926051
+      }
+    },
+    {
+      "id": "2aff",
+      "timestamp": "2024-03-16T11:53:15.746Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6314951337323087
+      }
+    },
+    {
+      "id": "4a78",
+      "timestamp": "2024-03-16T11:53:19.594Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6315175578357741
+      }
+    },
+    {
+      "id": "eb1c",
+      "timestamp": "2024-03-16T11:54:37.091Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6304558220937772
+      }
+    },
+    {
+      "id": "3607",
+      "timestamp": "2024-03-16T11:55:41.018Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3693.2548106656513
+      }
+    },
+    {
+      "id": "ca2c",
+      "timestamp": "2024-03-16T11:56:41.797Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3693.702390910392
+      }
+    },
+    {
+      "id": "cb0a",
+      "timestamp": "2024-03-16T11:57:42.715Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3693.270151417278
+      }
+    },
+    {
+      "id": "db16",
+      "timestamp": "2024-03-16T11:58:54.345Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13791775850303037
+      }
+    },
+    {
+      "id": "01a2",
+      "timestamp": "2024-03-16T12:00:03.062Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13785395823314683
+      }
+    },
+    {
+      "id": "8123",
+      "timestamp": "2024-03-16T12:00:08.799Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13785391311676154
+      }
+    },
+    {
+      "id": "8095",
+      "timestamp": "2024-03-16T12:00:13.808Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13785410562047706
+      }
+    },
+    {
+      "id": "99a3",
+      "timestamp": "2024-03-16T12:01:18.809Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1378550250903376
+      }
+    },
+    {
+      "id": "2193",
+      "timestamp": "2024-03-16T12:01:24.264Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13785503334767046
+      }
+    },
+    {
+      "id": "c2c3",
+      "timestamp": "2024-03-16T12:01:28.813Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1378551084338195
+      }
+    },
+    {
+      "id": "1da8",
+      "timestamp": "2024-03-16T12:03:08.733Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13772282624187795
+      }
+    },
+    {
+      "id": "5a3d",
+      "timestamp": "2024-03-16T12:14:15.970Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13702060913522876
+      }
+    },
+    {
+      "id": "54fd",
+      "timestamp": "2024-03-16T12:14:18.599Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1369762252535974
+      }
+    },
+    {
+      "id": "201d",
+      "timestamp": "2024-03-16T12:15:19.630Z",
+      "data": {
+        "label": "ETH",
+        "BITCOIN": 0.13696634003068237
+      }
+    },
+    {
+      "id": "6448",
+      "timestamp": "2024-03-16T12:16:34.932Z",
+      "data": {
+        "label": "ETH",
+        "BITCOIN": 0.1369664155355782
+      }
+    },
+    {
+      "id": "da69",
+      "timestamp": "2024-03-16T12:16:35.527Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3684.0176368228736
+      }
+    },
+    {
+      "id": "7af2",
+      "timestamp": "2024-03-16T12:16:41.074Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3683.090624949425
+      }
+    },
+    {
+      "id": "11c5",
+      "timestamp": "2024-03-16T12:16:46.081Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3683.1667218245625
+      }
+    },
+    {
+      "id": "94a2",
+      "timestamp": "2024-03-16T12:16:51.103Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3683.042796035399
+      }
+    },
+    {
+      "id": "8158",
+      "timestamp": "2024-03-16T12:16:56.103Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3682.633081986198
+      }
+    },
+    {
+      "id": "e0e8",
+      "timestamp": "2024-03-16T12:17:01.125Z",
+      "data": {
+        "label": "ETH",
+        "ETH": 3684.065851518627
+      }
+    },
+    {
+      "id": "e7de",
+      "timestamp": "2024-03-16T12:17:19.437Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13696789424920877
+      }
+    },
+    {
+      "id": "c512",
+      "timestamp": "2024-03-16T12:17:24.473Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1376127180966654
+      }
+    },
+    {
+      "id": "36a8",
+      "timestamp": "2024-03-16T12:17:29.461Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1376127180966654
+      }
+    },
+    {
+      "id": "4d79",
+      "timestamp": "2024-03-16T12:20:25.903Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13760933244912132
+      }
+    },
+    {
+      "id": "c8c7",
+      "timestamp": "2024-03-16T12:20:30.829Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1376093244302503
+      }
+    },
+    {
+      "id": "00dc",
+      "timestamp": "2024-03-16T12:20:35.824Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13760943298609302
+      }
+    },
+    {
+      "id": "45a3",
+      "timestamp": "2024-03-16T12:20:40.821Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13760921211848548
+      }
+    },
+    {
+      "id": "3042",
+      "timestamp": "2024-03-16T12:21:41.820Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1376045191111048
+      }
+    },
+    {
+      "id": "51cf",
+      "timestamp": "2024-03-16T12:24:59.283Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13784111090622833
+      }
+    },
+    {
+      "id": "6348",
+      "timestamp": "2024-03-16T12:27:03.116Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13784371372932042
+      }
+    },
+    {
+      "id": "ccb2",
+      "timestamp": "2024-03-16T12:35:57.493Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1387214156696738
+      }
+    },
+    {
+      "id": "a910",
+      "timestamp": "2024-03-16T12:37:53.237Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.1387220032411755
+      }
+    },
+    {
+      "id": "121a",
+      "timestamp": "2024-03-16T12:38:55.971Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13872370610647536
+      }
+    },
+    {
+      "id": "cfb0",
+      "timestamp": "2024-03-16T12:40:01.511Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13872811429387777
+      }
+    },
+    {
+      "id": "85ae",
+      "timestamp": "2024-03-16T12:40:07.385Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13872821292187804
+      }
+    },
+    {
+      "id": "fa51",
+      "timestamp": "2024-03-16T12:40:15.649Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13872821292187804
+      }
+    },
+    {
+      "id": "aaf1",
+      "timestamp": "2024-03-16T12:40:16.270Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13901354265282526
+      }
+    },
+    {
+      "id": "5e3c",
+      "timestamp": "2024-03-16T12:41:29.140Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13777385449960125
+      }
+    },
+    {
+      "id": "ea7b",
+      "timestamp": "2024-03-16T12:41:30.026Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13777239149149412
+      }
+    },
+    {
+      "id": "e081",
+      "timestamp": "2024-03-16T12:43:39.102Z",
+      "data": {
+        "label": "BITCOIN",
+        "BITCOIN": 0.13775787014717533
+      }
+    }
+  ]
+}

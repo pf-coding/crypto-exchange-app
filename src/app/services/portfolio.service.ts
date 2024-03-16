@@ -15,7 +15,8 @@ import {
 })
 export class PortfolioService {
   private apiUrl = 'https://rest.coinapi.io/v1/exchangerate';
-  private apiKey = '5714233D-4D13-40E3-AA4C-8376E0324561'; // Replace with your actual CoinAPI key
+  private apiKey = '5714233D-4D13-40E3-AA4C-8376E0324561';
+  private localData = 'http://localhost:3000/crypto-local';
 
   constructor(private http: HttpClient) {}
 
@@ -55,5 +56,9 @@ export class PortfolioService {
       }),
       retryWhen((errors) => errors.pipe(delay(1000))) // Additional retry delay, adjust as needed
     );
+  }
+
+  saveDataToJSON(data: any): Observable<any> {
+    return this.http.post<any>(this.localData, data);
   }
 }

@@ -1,4 +1,3 @@
-// tabs.component.ts
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -14,7 +13,12 @@ export class TabsComponent {
     {
       label: 'Etherium',
       content: 'Content for Etherium',
-      path: '/tabs/etherium',
+      path: '/tabs/eth',
+    },
+    {
+      label: 'XRP',
+      content: 'Content for XRP',
+      path: '/tabs/xrp',
     },
     {
       label: 'Portfolio-display',
@@ -28,6 +32,16 @@ export class TabsComponent {
 
   setActiveTab(index: number): void {
     this.activeTabIndex = index;
+    const selectedLabel = this.tabs[index].label;
+    const selectedValue = this.cryptocurrency[selectedLabel.toLowerCase()]; // Assuming the cryptocurrency object keys are lowercase
+    const selectedData = {
+      id: '8dad', // Example ID
+      timestamp: new Date().toISOString(),
+      data: {
+        label: selectedLabel.toUpperCase(),
+        [selectedLabel.toUpperCase()]: selectedValue,
+      },
+    };
   }
 
   getRouterLink(label: string): any[] {

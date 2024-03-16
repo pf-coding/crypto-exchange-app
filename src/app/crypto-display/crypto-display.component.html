@@ -1,14 +1,15 @@
 <div class="container">
   <app-tabs></app-tabs>
-  <div *ngIf="cryptocurrency" class="cryptocurrency-display">
-    <h1>{{ cryptocurrency.label }}</h1>
-    <p>
-      Ide tenném a diagramot. Ha bekötöttem volna rendesen. Helyette itt ez a
-      szemléltető ábra!
-    </p>
-    <img
-      src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5kaqQr9kVrc/v4/1200x675.png"
-      alt="Description of the image"
-    />
+  <app-chart [selectedCrypto]="cryptocurrency"></app-chart>
+  <div class="portfolio-container">
+    <h2>Exchange rates of the day! (USD)</h2>
+    <div class="portfolio">
+      <ng-container *ngIf="cryptocurrency">
+        <div *ngFor="let asset of getPortfolioKeys()" class="portfolio-row">
+          <span class="asset-name">{{ asset }}/USD:</span>
+          <span class="asset-rate">{{ cryptocurrency[asset] }}</span>
+        </div>
+      </ng-container>
+    </div>
   </div>
 </div>

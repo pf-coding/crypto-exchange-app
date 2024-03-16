@@ -1,0 +1,24 @@
+<div style="display: flex">
+  <ngx-charts-line-chart
+    *ngIf="chartData && chartData.length > 0"
+    [view]="view"
+    [results]="chartData"
+    [gradient]="false"
+    [xAxis]="xAxis"
+    [yAxis]="yAxis"
+    [legend]="legend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [animations]="animations"
+    (select)="onSelect($event)"
+    (activate)="onActivate($event)"
+    (deactivate)="onDeactivate($event)"
+  >
+  </ngx-charts-line-chart>
+  <div *ngIf="!(chartData && chartData.length > 0)">
+    <!-- Show a loading indicator or message indicating that data is being fetched -->
+    Loading...
+  </div>
+</div>

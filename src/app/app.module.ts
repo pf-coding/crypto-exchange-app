@@ -13,6 +13,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { PortfolioDisplayComponent } from './portfolio-display/portfolio-display.component';
 import { PortfolioService } from './services/portfolio.service';
 import { CryptoDisplayComponent } from './crypto-display/crypto-display.component';
+import { ChartComponent } from './chart/chart.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,6 +26,7 @@ import { CryptoDisplayComponent } from './crypto-display/crypto-display.componen
     CryptoModalComponent,
     PortfolioDisplayComponent,
     CryptoDisplayComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +36,9 @@ import { CryptoDisplayComponent } from './crypto-display/crypto-display.componen
     RouterModule,
     FormsModule,
     HttpClientModule,
+    NgxChartsModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
   ],
   providers: [PortfolioService],
   bootstrap: [AppComponent],

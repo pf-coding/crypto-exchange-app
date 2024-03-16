@@ -16,6 +16,9 @@ import { ChartComponent } from './chart/chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     NgxChartsModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
+    MatButtonModule,
+    MatDialogModule
   ],
   providers: [PortfolioService],
   bootstrap: [AppComponent],

@@ -1,4 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, TemplateRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog'; // Import MatDialog for modal functionality
 
 @Component({
   selector: 'app-tabs',
@@ -8,6 +10,7 @@ import { Component, Input } from '@angular/core';
 export class TabsComponent {
   @Input() cryptocurrency: any; // Assuming cryptocurrency is of type any for simplicity
 
+  @ViewChild('addCryptoModal') addCryptoModal!: TemplateRef<any>;
   tabs = [
     { label: 'BitCoin', content: 'Content for BitCoin', path: '/tabs/bitcoin' },
     {
@@ -29,6 +32,12 @@ export class TabsComponent {
   ];
 
   activeTabIndex = 0;
+  showModal: boolean = false; // Flag to control modal visibility
+  newCryptoName: string = ''; // Variable to store new cryptocurrency name
+
+  constructor(private router: Router, private dialog: MatDialog) {}
+
+  ngOnInit(): void {}
 
   setActiveTab(index: number): void {
     this.activeTabIndex = index;
@@ -54,5 +63,28 @@ export class TabsComponent {
     }
 
     return ['/tabs']; // Default to the first tab if label is not found
+  }
+
+  openModal() {
+    this.dialog.open(this.addCryptoModal);
+  }
+
+  // Method to close modal
+  closeModal() {
+    this.dialog.closeAll();
+    this.newCryptoName = ''; // Reset new cryptocurrency name
+  }
+
+  // Method to add new tab
+  addNewTab() {
+    const newTab = {
+      label: this.newCryptoName,
+      content: 'Content for ' + this.newCryptoName,
+      path: `/tabs/${this.newCryptoName.toLowerCase().replace(' ', '-')}`,
+    };
+    this.tabs.push(newTab);
+    this.setActiveTab(this.tabs.length - 1); // Set newly added tab as active
+    // You may need to navigate to the new tab here depending on your routing setup
+    this.newCryptoName = ''; // Clear the input field
   }
 }

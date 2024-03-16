@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription, timer } from 'rxjs';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { Color, ScaleType } from '@swimlane/ngx-charts';
 
 @Component({
   selector: 'app-chart',
@@ -12,21 +12,28 @@ export class ChartComponent implements OnInit, OnDestroy {
   @Input() selectedCrypto: any; // Receive selected cryptocurrency data
 
   chartData: any[] = []; // Initialize chartData with an empty array
-
-  // Options
   view: [number, number] = [700, 300];
   legend: boolean = true;
-  showLabels: boolean = true;
-  animations: boolean = true;
+  showXAxis: boolean = true;
+  showYAxis: boolean = true;
+  showXAxisLabel: boolean = true;
+  showYAxisLabel: boolean = true;
   xAxis: boolean = true;
   yAxis: boolean = true;
-  showYAxisLabel: boolean = true;
-  showXAxisLabel: boolean = true;
   xAxisLabel: string = 'Time';
   yAxisLabel: string = 'Exchange Rate (USD)';
   timeline: boolean = true;
-  dataSubscription: Subscription | undefined;
+  animations: boolean = true;
+  showLabels: boolean = true;
 
+  colorScheme: Color = {
+    domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5'],
+    name: 'ownprops',
+    selectable: true,
+    group: ScaleType.Ordinal,
+  };
+
+  dataSubscription: Subscription | undefined;
   fetchedData: any[] = []; // Array to store fetched data
 
   constructor(private http: HttpClient) {}
@@ -87,9 +94,14 @@ export class ChartComponent implements OnInit, OnDestroy {
 
       // Construct the modified data item
       const modifiedItem = {
-        label: label,
-        timestamp: timestamp,
-        value: value,
+        name: label, // The name of the series (e.g., cryptocurrency label)
+        series: [
+          {
+            name: new Date(timestamp), // The x value (timestamp converted to Date object)
+            value: value, // The y value (e.g., exchange rate)
+          },
+          // You can include more data points in the series array if needed
+        ],
       };
 
       // Push the modified data item to the chart data array
@@ -99,14 +111,15 @@ export class ChartComponent implements OnInit, OnDestroy {
     // Sort chartData based on timestamp
     this.chartData.sort(
       (a, b) =>
-        new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
+        new Date(a.series[0].name).getTime() -
+        new Date(b.series[0].name).getTime()
     );
 
     // Filter chartData based on the selected cryptocurrency label
     if (this.selectedCrypto && this.selectedCrypto.label) {
       const selectedLabel = this.selectedCrypto.label.toUpperCase();
       this.chartData = this.chartData.filter(
-        (data) => data.label === selectedLabel
+        (data) => data.name === selectedLabel
       );
     }
 

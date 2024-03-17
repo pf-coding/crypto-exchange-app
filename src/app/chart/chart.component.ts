@@ -35,6 +35,7 @@ export class ChartComponent implements OnInit, OnDestroy {
 
   dataSubscription: Subscription | undefined;
   fetchedData: any[] = []; // Array to store fetched data
+  loading: boolean = true; // Flag to indicate loading state
 
   constructor(private http: HttpClient) {}
 
@@ -79,6 +80,7 @@ export class ChartComponent implements OnInit, OnDestroy {
         console.log('Fetched data:', data); // Log the fetched data
         this.fetchedData = data; // Store fetched data in the local array
         this.updateChartData(); // Update the chart data
+        this.loading = false; // Set loading flag to false after data is fetched
       });
   }
 

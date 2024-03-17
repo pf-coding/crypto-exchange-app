@@ -1,20 +1,30 @@
+// crypto-modal.component.ts
 import { Component } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-crypto-modal',
   templateUrl: './crypto-modal.component.html',
-  styleUrls: ['./crypto-modal.component.scss']
+  styleUrls: ['./crypto-modal.component.scss'],
 })
 export class CryptoModalComponent {
-  newCryptoName: string = '';
+  cryptocurrencies: string[] = [
+    'USDT',
+    'BNB',
+    'SOL',
+    'USDC',
+    'ADA',
+    'AVAX',
+    'SHIB',
+    'DOT',
+  ];
+  selectedCrypto: string = '';
 
   constructor(public dialogRef: MatDialogRef<CryptoModalComponent>) {}
 
   addNewCrypto(): void {
-    // You can perform any necessary validation here before closing the modal
-    if (this.newCryptoName.trim() !== '') {
-      this.dialogRef.close(this.newCryptoName);
+    if (this.selectedCrypto.trim() !== '') {
+      this.dialogRef.close(this.selectedCrypto);
     }
   }
 

@@ -8,8 +8,6 @@ $redFire: rgba(244, 91, 105, 1);
 // Fonts
 $fontAsap: "Asap", sans-serif;
 
-
-
 .login {
   overflow: hidden;
   background-color: white;
@@ -17,7 +15,7 @@ $fontAsap: "Asap", sans-serif;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: -350%;
   width: 400px;
   transform: translate(-50%, -50%);
   transition: transform 300ms, box-shadow 300ms;

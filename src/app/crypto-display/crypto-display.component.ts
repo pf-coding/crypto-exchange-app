@@ -1,7 +1,9 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { interval, Subscription } from 'rxjs';
 import { PortfolioService } from '../services/portfolio.service';
+import { LoadingService } from '../services/loading.service';
+import { TabsComponent } from '../tabs/tabs.component';
 
 @Component({
   selector: 'app-crypto-display',
@@ -11,11 +13,15 @@ import { PortfolioService } from '../services/portfolio.service';
 export class CryptoDisplayComponent implements OnInit, OnDestroy {
   cryptocurrency: any;
   private refreshSubscription: Subscription | undefined;
+  dataSaved: boolean = false; // Flag to indicate whether data is saved successfully
+  loading: boolean = false;
+  @ViewChild(TabsComponent) tabsComponent!: TabsComponent;
 
   constructor(
     private route: ActivatedRoute,
     private portfolioService: PortfolioService,
-    private router: Router
+    private router: Router,
+    private loadingService: LoadingService
   ) {}
 
   onTabSelected(content: string): void {
@@ -38,7 +44,12 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
         );
       } else {
         console.error("Route parameter 'content' is undefined.");
+        this.cryptocurrency = 'Description';
       }
+    });
+
+    this.loadingService.loading$.subscribe((loading) => {
+      this.loading = loading; // Update the loading state
     });
   }
 
@@ -77,10 +88,24 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
     this.portfolioService.saveDataToJSON(dataWithTimestamp).subscribe(
       (response) => {
         console.log('Data saved successfully:', response);
+        this.dataSaved = true; // Set flag to indicate data is saved successfully
       },
       (error) => {
         console.error('Error saving data:', error);
       }
     );
+  }
+
+  deleteTab(): void {
+    const label = this.cryptocurrency.label;
+
+    // Check if the label matches the "Description" tab
+    if (label === 'Description') {
+      // Navigate to the "Description" tab
+      this.router.navigateByUrl('/tabs/description');
+    } else {
+      // Remove the current tab
+      this.tabsComponent.removeTab(label); // Assuming tabsComponent is a reference to your TabsComponent
+    }
   }
 }

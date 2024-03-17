@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CRYPTS-landing page</title>
+    <link rel="stylesheet" href="welcome-page.component.scss" />
+  </head>
+  <body>
+    <style>
+      /* Your CSS styles here */
+    </style>
+
+    <!-- app-welcome-page.component.html -->
+    <!-- app-welcome-page.component.html -->
+
+    <div id="home-container">
+      <!-- Welcome page content -->
+      <div class="logo-container">
+        <img src="assets/logo.svg" alt="Crypts logo" id="logo" />
+      </div>
+      <app-login *ngIf="displayLogin" class="fade-in"></app-login>
+      <div id="inner" [ngClass]="{ 'fade-out': displayLogin }">
+        <h1>Crypto + Charts = Solutions</h1>
+        <p class="subtitle">Charts meet real-time crypto-currency</p>
+        <!-- Only fade out this part -->
+        <div class="cta-container">
+          <button
+            *ngIf="!displayLogin"
+            (click)="showLogin()"
+            class="nav-link cta cta--white"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+
+      <!-- Illustration -->
+      <div id="illustration">
+        <img
+          src="assets/dash.svg"
+          alt="dash img"
+          id="dash"
+          class="crypto-icons"
+        />
+        <img
+          src="assets/miota.svg"
+          alt="miota img"
+          id="miota"
+          class="crypto-icons"
+        />
+        <img src="assets/eth.svg" alt="eth img" id="eth" class="crypto-icons" />
+        <img src="assets/monitor.svg" alt="monitor img" id="monitor" />
+      </div>
+    </div>
+  </body>
+</html>

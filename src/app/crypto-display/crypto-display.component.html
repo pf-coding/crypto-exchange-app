@@ -1,15 +1,33 @@
 <div class="container">
   <app-tabs></app-tabs>
-  <app-chart [selectedCrypto]="cryptocurrency"></app-chart>
+
+  <app-chart
+    *ngIf="cryptocurrency && cryptocurrency !== 'Description'"
+    [selectedCrypto]="cryptocurrency"
+  ></app-chart>
+
   <div class="portfolio-container">
     <h2>Exchange rates of the day! (USD)</h2>
-    <div class="portfolio">
-      <ng-container *ngIf="cryptocurrency">
+    <div class="crypto-container">
+      <ng-container *ngIf="cryptocurrency && cryptocurrency !== 'Description'">
+        <!-- Render cryptocurrency details -->
         <div *ngFor="let asset of getPortfolioKeys()" class="portfolio-row">
-          <span class="asset-name">{{ asset }}/USD:</span>
-          <span class="asset-rate">{{ cryptocurrency[asset] }}</span>
+          <div class="asset-details">
+            <span class="asset-name">{{ asset }}/USD:</span>
+            <span class="asset-rate">{{ cryptocurrency[asset] }}</span>
+          </div>
+          <div>
+            <button class="delete-button" (click)="deleteTab()">
+              Delete Currency
+            </button>
+          </div>
         </div>
       </ng-container>
+
+      <!-- Render default tab when no cryptocurrency is selected -->
+      <app-default-tab
+        *ngIf="!cryptocurrency || cryptocurrency === 'Description'"
+      ></app-default-tab>
     </div>
   </div>
 </div>

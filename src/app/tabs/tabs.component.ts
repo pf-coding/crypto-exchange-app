@@ -1,7 +1,9 @@
 import { Component, Input, TemplateRef, ViewChild } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog'; // Import MatDialog for modal functionality
 import { CryptoModalComponent } from '../crypto-modal/crypto-modal.component';
+import { PortfolioService } from '../services/portfolio.service';
+import { LoadingService } from '../services/loading.service';
 
 @Component({
   selector: 'app-tabs',
@@ -13,6 +15,7 @@ export class TabsComponent {
 
   @ViewChild('addCryptoModal') addCryptoModal!: TemplateRef<any>;
   tabs = [
+    { label: 'Descripton', path: '/description' },
     { label: 'BTC', content: 'Content for BitCoin', path: '/tabs/btc' },
     {
       label: 'ETH',
@@ -34,8 +37,14 @@ export class TabsComponent {
   activeTabIndex = 0;
   showModal: boolean = false;
   newCryptoName: string = '';
+  loading: boolean = false; // Flag to indicate data loading state
 
-  constructor(private router: Router, private dialog: MatDialog) {}
+  constructor(
+    private router: Router,
+    private dialog: MatDialog,
+    private portfolioService: PortfolioService,
+    private loadingService: LoadingService
+  ) {}
 
   setActiveTab(index: number): void {
     this.activeTabIndex = index;
@@ -64,15 +73,23 @@ export class TabsComponent {
   }
 
   addNewTab(newCryptoName: string): void {
-    const newTabLabel = prompt('Enter new cryptocurrency name:');
-    if (newTabLabel && newTabLabel.trim() !== '') {
+    if (newCryptoName && newCryptoName.trim() !== '') {
       const newTab = {
-        label: newTabLabel,
-        content: 'Content for ' + newTabLabel,
-        path: `/tabs/${newTabLabel.toLowerCase().replace(' ', '-')}`,
+        label: newCryptoName,
+        content: 'Content for ' + newCryptoName,
+        path: `/tabs/${newCryptoName.toLowerCase().replace(' ', '-')}`,
       };
       this.tabs.push(newTab); // Add the new tab to the end of the tabs array
       this.activeTabIndex = this.tabs.length - 1; // Set the newly added tab as active
+      this.router.navigateByUrl(newTab.path); // Navigate to the newly added tab's content
+      this.fetchDataForNewTab(newTab.label); // Fetch data for the newly added tab
+    }
+  }
+
+  removeTab(label: string): void {
+    const index = this.tabs.findIndex((tab) => tab.label === label);
+    if (index !== -1) {
+      this.tabs.splice(index, 1); // Remove tab from array
     }
   }
 
@@ -87,5 +104,21 @@ export class TabsComponent {
         this.addNewTab(result);
       }
     });
+  }
+
+  fetchDataForNewTab(label: string): void {
+    // Fetch data for the new tab using PortfolioService
+    this.portfolioService.getExchangeRates([label.toUpperCase()]).subscribe(
+      (response) => {
+        // Handle successful response
+        console.log('Data fetched successfully:', response);
+        this.loadingService.setLoadingState(false); // Set loading state to false when data is fetched
+      },
+      (error) => {
+        // Handle error
+        console.error('Error fetching data for new tab:', error);
+        this.loadingService.setLoadingState(false); // Set loading state to false in case of error
+      }
+    );
   }
 }

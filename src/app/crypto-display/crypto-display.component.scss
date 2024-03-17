@@ -34,3 +34,100 @@ p {
   font-size: 16px;
   margin-top: 10px;
 }
+
+.cta {
+  background-color: #09bbe9;
+  padding: 1em;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.2em;
+  box-shadow: 0 0 0 0 rgba(9, 187, 233, 0.2);
+}
+
+.cta:hover,
+.cta:focus {
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.5, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.5, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.5, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.5, 0, 0, 1);
+}
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);
+  }
+}
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);
+  }
+}
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);
+  }
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);
+  }
+}
+
+/* crypto-display.component.scss */
+
+/* Styling for the container holding the cryptocurrency display */
+.crypto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Styling for the cryptocurrency display */
+.crypto-display {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Styling for the portfolio rows */
+.portfolio-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.asset-details {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the asset name */
+.asset-name {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: #ff4444; /* Red color */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red color on hover */
+}

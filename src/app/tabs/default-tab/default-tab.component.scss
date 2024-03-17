@@ -1,0 +1,50 @@
+/* default-tab.component.scss */
+
+.description-container {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.description-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.description-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description-container ol {
+  margin-left: 20px;
+}
+
+.description-container li {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.description-container strong {
+  font-weight: bold;
+}
+
+/* Styling for the strong tag within list items */
+.description-container ol strong {
+  color: #09bbe9; /* Adjust as needed */
+}
+
+/* Styling for the link within list items */
+.description-container ol a {
+  color: #09bbe9; /* Adjust as needed */
+}
+
+/* Styling for the container's hover effect */
+.description-container:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}

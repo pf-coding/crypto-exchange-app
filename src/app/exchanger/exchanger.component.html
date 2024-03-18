@@ -1,0 +1,59 @@
+<!-- <div class="container">
+  <div *ngIf="cryptos" class="mt-5">
+    <div id="crypto-container" class="row">
+      <div
+        class="col-md-4 mb-3"
+        *ngFor="let crypto of objectKeys(cryptos)"
+        (click)="selectCoin(crypto)"
+        [class.selected]="selectedCoin === crypto"
+      >
+        <span class="left">{{ crypto }}</span>
+        <span class="right">{{ cryptos[crypto].USD | currency : "USD" }}</span>
+      </div>
+    </div>
+  </div> -->
+<div class="container col-8 mb-5" *ngIf="selectedCoin">
+  <div class="selected-coin-container mt-5">
+    <div class="selected-coin-details">
+      <h2>Selected Coin: {{ selectedCoin }}</h2>
+      <p>Value in USD: {{ coinValue | currency : "USD" }}</p>
+      <p>
+        Value of one USD worth of the coin:
+        {{ conversionRate | number : "1.4-8" }}
+      </p>
+    </div>
+
+    <div class="selected-coin-conversion">
+      <h2>Conversion</h2>
+      <div class="form-group">
+        <label for="usdToCryptoInput">USD to {{ selectedCoin }}:</label>
+        <input
+          id="usdToCryptoInput"
+          type="number"
+          class="form-control"
+          [ngModel]="usdToCryptoAmount"
+          (ngModelChange)="updateUsdToCryptoAmount($event)"
+        />
+      </div>
+      <button class="btn btn-primary" (click)="convertUsdToCrypto()">
+        Convert
+      </button>
+      <br />
+      <div class="form-group mt-3">
+        <label for="cryptoToUsdInput">{{ selectedCoin }} to USD:</label>
+        <input
+          id="cryptoToUsdInput"
+          type="number"
+          class="form-control"
+          [ngModel]="cryptoToUsdAmount"
+          (ngModelChange)="updateCryptoToUsdAmount($event)"
+        />
+      </div>
+      <button class="btn btn-primary" (click)="convertCryptoToUsd()">
+        Convert
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- </div> -->

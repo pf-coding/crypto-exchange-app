@@ -81,6 +81,23 @@
             stay ahead in the fast-paced world of digital currencies. Sign up
             now and embark on your cryptocurrency journey with confidence!
           </p>
+          <div class="container">
+            <div *ngIf="cryptos" class="mt-5">
+              <div id="crypto-container" class="row">
+                <div
+                  class="col-md-4 mb-3"
+                  *ngFor="let crypto of objectKeys(cryptos)"
+                  (click)="selectCoin(crypto)"
+                  [class.selected]="selectedCoin === crypto"
+                >
+                  <span class="left">{{ crypto }}</span>
+                  <span class="right">{{
+                    cryptos[crypto].USD | currency : "USD"
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

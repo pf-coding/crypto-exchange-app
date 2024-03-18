@@ -14,25 +14,7 @@ export class TabsComponent {
   @Input() cryptocurrency: any; // Assuming cryptocurrency is of type any for simplicity
 
   @ViewChild('addCryptoModal') addCryptoModal!: TemplateRef<any>;
-  tabs = [
-    { label: 'Descripton', path: '/description' },
-    { label: 'BTC', content: 'Content for BitCoin', path: '/tabs/btc' },
-    {
-      label: 'ETH',
-      content: 'Content for Etherium',
-      path: '/tabs/eth',
-    },
-    {
-      label: 'XRP',
-      content: 'Content for XRP',
-      path: '/tabs/xrp',
-    },
-    {
-      label: 'DOGE',
-      content: 'Content for DOGE',
-      path: '/tabs/doge',
-    },
-  ];
+  tabs = [{ label: 'Descripton', path: '/description' }];
 
   activeTabIndex = 0;
   showModal: boolean = false;
@@ -47,9 +29,30 @@ export class TabsComponent {
   ) {}
 
   setActiveTab(index: number): void {
+    if (!this.tabs || index < 0 || index >= this.tabs.length) {
+      console.error(
+        'Error: Tabs array is not properly initialized or index is out of bounds.'
+      );
+      return;
+    }
+
     this.activeTabIndex = index;
-    const selectedLabel = this.tabs[index].label;
-    const selectedValue = this.cryptocurrency[selectedLabel.toLowerCase()];
+    const selectedTab = this.tabs[index];
+    if (!selectedTab || !selectedTab.label) {
+      console.error('Error: Selected tab or label is undefined.');
+      return;
+    }
+
+    const selectedLabel = selectedTab.label;
+    const selectedValue = this.cryptocurrency?.[selectedLabel.toLowerCase()]; // Using optional chaining to handle potential undefined
+    if (selectedValue === undefined) {
+      console.error(
+        `Error: Cryptocurrency value for ${selectedLabel} is undefined.`
+      );
+      return;
+    }
+
+    // Creating selectedData object, even if it's not used, to avoid TypeScript error
     const selectedData = {
       id: '8dad',
       timestamp: new Date().toISOString(),
@@ -58,6 +61,21 @@ export class TabsComponent {
         [selectedLabel.toUpperCase()]: selectedValue,
       },
     };
+
+    // Check if the tab already exists
+    const existingTab = this.tabs.find(
+      (tab) => tab.label.toLowerCase() === selectedLabel.toLowerCase()
+    );
+    if (!existingTab) {
+      // If tab doesn't exist, add it dynamically
+      const newTab = {
+        label: selectedLabel,
+        content: `Content for ${selectedLabel}`,
+        path: `/tabs/${selectedLabel.toLowerCase()}`,
+      };
+      this.tabs.push(newTab); // Add the new tab
+      this.activeTabIndex = this.tabs.length - 1; // Set the newly added tab as active
+    }
   }
 
   getRouterLink(label: string): any[] {

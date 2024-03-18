@@ -9,14 +9,10 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 export class CryptoModalComponent {
   cryptocurrencies: string[] = [
-    'USDT',
-    'BNB',
-    'SOL',
-    'USDC',
-    'ADA',
-    'AVAX',
-    'SHIB',
-    'DOT',
+    'BTC',
+    'XRP',
+    'DOGE',
+    'ETH',
   ];
   selectedCrypto: string = '';
 

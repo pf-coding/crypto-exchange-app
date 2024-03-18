@@ -40,7 +40,7 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.valid) {
       console.log('Form submitted:', this.loginForm.value);
 
-      this.router.navigate(['/tabs']);
+      this.router.navigate(['/description']);
       // Add your login logic here
     } else {
       console.log('Form is invalid. Please check your inputs.');

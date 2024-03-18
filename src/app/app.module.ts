@@ -22,6 +22,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { LoadingComponent } from './loading/loading.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { DefaultTabComponent } from './tabs/default-tab/default-tab.component';
+import { ExchangerComponent } from './exchanger/exchanger.component';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { DefaultTabComponent } from './tabs/default-tab/default-tab.component';
     ChartComponent,
     WelcomePageComponent,
     DefaultTabComponent,
+    ExchangerComponent
   ],
   imports: [
     BrowserModule,
@@ -49,6 +52,7 @@ import { DefaultTabComponent } from './tabs/default-tab/default-tab.component';
     MatButtonModule,
     MatDialogModule,
     LoadingComponent,
+    
   ],
   providers: [PortfolioService],
   bootstrap: [AppComponent],

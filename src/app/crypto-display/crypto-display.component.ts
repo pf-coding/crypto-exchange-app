@@ -63,9 +63,14 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
   private fetchExchangeRates(content: string): void {
     const assets = [content.toUpperCase()];
     this.portfolioService.getExchangeRates(assets).subscribe(
-      (responses) => {
-        responses.forEach((response, index) => {
-          this.cryptocurrency[assets[index]] = response.rate;
+      (response: any) => {
+        // Iterate over each asset and update cryptocurrency object with its rate
+        assets.forEach((asset) => {
+          if (response[asset]) {
+            this.cryptocurrency[asset] = response[asset].USD;
+          } else {
+            console.error(`No exchange rate found for ${asset}`);
+          }
         });
         this.saveData(); // Save updated data after each fetch
       },
@@ -98,14 +103,8 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
 
   deleteTab(): void {
     const label = this.cryptocurrency.label;
+    this.router.navigateByUrl('/description');
 
-    // Check if the label matches the "Description" tab
-    if (label === 'Description') {
-      // Navigate to the "Description" tab
-      this.router.navigateByUrl('/tabs/description');
-    } else {
-      // Remove the current tab
-      this.tabsComponent.removeTab(label); // Assuming tabsComponent is a reference to your TabsComponent
-    }
+    this.tabsComponent.removeTab(label); // Assuming tabsComponent is a reference to your TabsComponent
   }
 }

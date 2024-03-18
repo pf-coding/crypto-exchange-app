@@ -1,154 +1,69 @@
 {
   "crypto-local": [
     {
-      "id": "b362",
-      "timestamp": "2024-03-18T19:37:07.365Z",
+      "id": "f602",
+      "timestamp": "2024-03-18T20:31:14.406Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.66
+        "label": "BTC",
+        "BTC": 67187.81,
+        "XRP": 0.6072
       }
     },
     {
-      "id": "4174",
-      "timestamp": "2024-03-18T19:37:09.788Z",
+      "id": "bf60",
+      "timestamp": "2024-03-18T20:31:14.452Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.66
+        "label": "BTC",
+        "BTC": 67187.81,
+        "XRP": 0.6072
       }
     },
     {
-      "id": "ea5d",
-      "timestamp": "2024-03-18T19:37:14.793Z",
+      "id": "5b97",
+      "timestamp": "2024-03-18T20:31:16.997Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.66
+        "label": "BTC",
+        "BTC": 67187.81
       }
     },
     {
-      "id": "d407",
-      "timestamp": "2024-03-18T19:37:19.808Z",
+      "id": "f3f7",
+      "timestamp": "2024-03-18T20:31:22.000Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.68
+        "label": "BTC",
+        "BTC": 67187.81
       }
     },
     {
-      "id": "5d36",
-      "timestamp": "2024-03-18T19:37:24.795Z",
+      "id": "5374",
+      "timestamp": "2024-03-18T20:31:27.028Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.68
+        "label": "BTC",
+        "BTC": 67188.74
       }
     },
     {
-      "id": "180f",
-      "timestamp": "2024-03-18T19:37:29.845Z",
+      "id": "2e94",
+      "timestamp": "2024-03-18T20:31:31.985Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3505.02
+        "label": "BTC",
+        "BTC": 67188.74
       }
     },
     {
-      "id": "ebb1",
-      "timestamp": "2024-03-18T19:37:35.500Z",
+      "id": "e6b5",
+      "timestamp": "2024-03-18T20:31:37.023Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3505.02
+        "label": "BTC",
+        "BTC": 67188.74
       }
     },
     {
-      "id": "182d",
-      "timestamp": "2024-03-18T19:37:40.535Z",
+      "id": "4a65",
+      "timestamp": "2024-03-18T20:31:41.982Z",
       "data": {
-        "label": "ETH",
-        "ETH": 3503.67
-      }
-    },
-    {
-      "id": "d9b4",
-      "timestamp": "2024-03-18T19:37:45.499Z",
-      "data": {
-        "label": "ETH",
-        "ETH": 3503.67
-      }
-    },
-    {
-      "id": "678d",
-      "timestamp": "2024-03-18T19:37:49.780Z",
-      "data": {
-        "label": "ETH",
-        "ETH": 3503.67
-      }
-    },
-    {
-      "id": "a1e6",
-      "timestamp": "2024-03-18T19:37:53.794Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431
-      }
-    },
-    {
-      "id": "7de6",
-      "timestamp": "2024-03-18T19:37:54.933Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "17ba",
-      "timestamp": "2024-03-18T19:37:58.460Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "d0fb",
-      "timestamp": "2024-03-18T19:37:59.765Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "92df",
-      "timestamp": "2024-03-18T19:38:03.488Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "8383",
-      "timestamp": "2024-03-18T19:38:04.762Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "b7d4",
-      "timestamp": "2024-03-18T19:38:08.439Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3503.99
-      }
-    },
-    {
-      "id": "c28f",
-      "timestamp": "2024-03-18T19:38:09.814Z",
-      "data": {
-        "label": "DOGE",
-        "DOGE": 0.1431,
-        "ETH": 3505.26
+        "label": "BTC",
+        "BTC": 67188.74
       }
     }
   ]

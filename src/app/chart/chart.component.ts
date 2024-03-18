@@ -114,8 +114,8 @@ export class ChartComponent implements OnInit, OnDestroy {
           } else {
             // Otherwise, construct a new data point
             const dataPoint = {
-              name: timestamp,
-              series: [{ name: cryptoLabel, value: value }],
+              name: item.id,
+              series: [{ name: timestamp, value: value }],
             };
             // Push the data point to the chart data array
             this.chartData.push(dataPoint);

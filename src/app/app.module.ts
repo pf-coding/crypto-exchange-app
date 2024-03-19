@@ -23,7 +23,6 @@ import { LoadingComponent } from './loading/loading.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { DefaultTabComponent } from './tabs/default-tab/default-tab.component';
 import { ExchangerComponent } from './exchanger/exchanger.component';
-import { ChartoftheweekComponent } from './chartoftheweek/chartoftheweek.component'; // Import ChartoftheweekComponent
 
 @NgModule({
   declarations: [
@@ -37,7 +36,6 @@ import { ChartoftheweekComponent } from './chartoftheweek/chartoftheweek.compone
     WelcomePageComponent,
     DefaultTabComponent,
     ExchangerComponent,
-    ChartoftheweekComponent,
   ],
   imports: [
     BrowserModule,

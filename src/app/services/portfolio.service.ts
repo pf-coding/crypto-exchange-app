@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, filter, map } from 'rxjs/operators';
-import { WebSocketSubject, webSocket } from 'rxjs/webSocket';
+import { WebSocketSubject } from 'rxjs/webSocket';
 
 @Injectable({
   providedIn: 'root',
@@ -12,9 +12,8 @@ export class PortfolioService {
   private localData = 'http://localhost:3000/crypto-local';
   private ws!: WebSocketSubject<any>;
   private apiKey =
-    '0dd4bf1d0319a843dd0820d15c7b62ddd6655d28a4ed5b74dc12ddc22780a29c';
+    'f73629795b265c54487fbada6de07ebaa01695a5ad85383107d0ab6ecb9e3068';
   result: any;
-  private socket$!: WebSocketSubject<any>;
 
   constructor(private http: HttpClient) {}
 
@@ -67,7 +66,7 @@ export class PortfolioService {
             LASTUPDATE: message.LASTUPDATE,
             VOLUME24HOUR: message.VOLUME24HOUR,
             high: message.HIGH24HOUR,
-            low: message.LOW24HOUR,
+            low: message.LOW24HOUR
           };
         }
         return null;
@@ -75,28 +74,4 @@ export class PortfolioService {
       filter((message: any) => message !== null)
     );
   }
-
-  connect(apiKey: string): void {
-    const wsUrl = `wss://streamer.cryptocompare.com/v2?api_key=${apiKey}`;
-    this.socket$ = webSocket(wsUrl);
-    this.socket$.subscribe(
-      (message: any) => {
-        console.log('Received message:', message);
-        // Process message here (e.g., update chart)
-      },
-      (error: any) => {
-        console.error('WebSocket error:', error);
-      }
-    );
-  }
-
-  disconnect(): void {
-    if (this.socket$) {
-      this.socket$.complete(); // Close WebSocket connection
-    }
-  }
-  getCandlestickData(): Observable<any> {
-    const url = `${this.apiUrl}`; // Adjust the endpoint according to your API
-    return this.http.get<any>(url);
-  }
-}
+}  

@@ -36,12 +36,19 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(): void {
-    // Handle login logic here
     if (this.loginForm.valid) {
+      // Adatok lekérése a formból
+      const username = this.loginForm.value.username;
+      const password = this.loginForm.value.password;
+
+      // Adatok tárolása a local storage-ban
+      localStorage.setItem('username', username);
+      localStorage.setItem('password', password);
+
       console.log('Form submitted:', this.loginForm.value);
 
+      // Navigálás a következő oldalra
       this.router.navigate(['/description']);
-      // Add your login logic here
     } else {
       console.log('Form is invalid. Please check your inputs.');
     }

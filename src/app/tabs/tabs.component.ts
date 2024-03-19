@@ -1,21 +1,28 @@
-import { Component, Input, TemplateRef, ViewChild } from '@angular/core';
+import {
+  Component,
+  Input,
+  TemplateRef,
+  ViewChild,
+  OnInit,
+} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog'; // Import MatDialog for modal functionality
 import { CryptoModalComponent } from '../crypto-modal/crypto-modal.component';
 import { PortfolioService } from '../services/portfolio.service';
 import { LoadingService } from '../services/loading.service';
+import { CryptoStorageService } from '../services/cryptostorage.service';
 
 @Component({
   selector: 'app-tabs',
   templateUrl: './tabs.component.html',
   styleUrls: ['./tabs.component.scss'],
 })
-export class TabsComponent {
+export class TabsComponent implements OnInit {
   @Input() cryptocurrency: any; // Assuming cryptocurrency is of type any for simplicity
 
   @ViewChild('addCryptoModal') addCryptoModal!: TemplateRef<any>;
   tabs = [{ label: 'Descripton', path: '/description' }];
-
+  selectedCryptos: string[] = [];
   activeTabIndex = 0;
   showModal: boolean = false;
   newCryptoName: string = '';
@@ -25,8 +32,29 @@ export class TabsComponent {
     private router: Router,
     private dialog: MatDialog,
     private portfolioService: PortfolioService,
-    private loadingService: LoadingService
+    private loadingService: LoadingService,
+    private cryptoStorageService: CryptoStorageService
   ) {}
+
+  ngOnInit(): void {
+    // Betöltjük a kriptovalutákat a local storage-ból az inicializáláskor
+    this.selectedCryptos = this.cryptoStorageService.getSelectedCryptos();
+  }
+
+  selectCrypto(crypto: string): void {
+    // Hozzáadjuk a kiválasztott kriptovalutát
+    this.selectedCryptos.push(crypto);
+    // Mentjük a kriptovalutákat a local storage-ba
+    this.cryptoStorageService.saveSelectedCryptos(this.selectedCryptos);
+  }
+
+  // Kriptovaluta eltávolítása és mentése
+  removeCrypto(crypto: string): void {
+    // Eltávolítjuk a kiválasztott kriptovalutát
+    this.selectedCryptos = this.selectedCryptos.filter((c) => c !== crypto);
+    // Mentjük a kriptovalutákat a local storage-ba
+    this.cryptoStorageService.saveSelectedCryptos(this.selectedCryptos);
+  }
 
   setActiveTab(index: number): void {
     if (!this.tabs || index < 0 || index >= this.tabs.length) {

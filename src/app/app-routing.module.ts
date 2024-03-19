@@ -8,6 +8,7 @@ import { CryptoDisplayComponent } from './crypto-display/crypto-display.componen
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { DefaultTabComponent } from './tabs/default-tab/default-tab.component';
 import { ExchangerComponent } from './exchanger/exchanger.component';
+import { ChartoftheweekComponent } from './chartoftheweek/chartoftheweek.component';
 
 // app-routing.module.ts
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'tabs/:content', component: CryptoDisplayComponent },
   { path: 'description', component: DefaultTabComponent }, // Updated route for the default tab
   { path: 'exchanger', component: ExchangerComponent }, // Updated route for the default tab
+  { path: 'weeklychart', component: ChartoftheweekComponent }, // Updated route for the default tab
   { path: '**', redirectTo: '', pathMatch: 'full' }, // Redirect invalid routes to the home page
 ];
 

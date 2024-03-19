@@ -1,1966 +1,2680 @@
 {
   "crypto-local": [
     {
-      "id": "f602",
-      "timestamp": "2024-03-18T20:31:14.406Z",
+      "id": "dfdf",
+      "timestamp": "2024-03-19T20:30:13.609Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67187.81,
-        "XRP": 0.6072
+        "label": "XRP",
+        "XRP": 0.6001,
+        "BTC": 63737.77
       }
     },
     {
-      "id": "bf60",
-      "timestamp": "2024-03-18T20:31:14.452Z",
+      "id": "fd55",
+      "timestamp": "2024-03-19T20:30:13.651Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67187.81,
-        "XRP": 0.6072
+        "label": "XRP",
+        "XRP": 0.6001,
+        "BTC": 63737.77
       }
     },
     {
-      "id": "5b97",
-      "timestamp": "2024-03-18T20:31:16.997Z",
+      "id": "d06e",
+      "timestamp": "2024-03-19T20:30:14.460Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67187.81
+        "label": "XRP",
+        "XRP": 0.6001,
+        "BTC": 63737.77
       }
     },
     {
-      "id": "f3f7",
-      "timestamp": "2024-03-18T20:31:22.000Z",
+      "id": "80bb",
+      "timestamp": "2024-03-19T20:30:15.080Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67187.81
+        "label": "XRP",
+        "XRP": 0.6001,
+        "BTC": 63737.77
       }
     },
     {
-      "id": "5374",
-      "timestamp": "2024-03-18T20:31:27.028Z",
+      "id": "4a8c",
+      "timestamp": "2024-03-19T20:30:16.195Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67188.74
+        "label": "XRP",
+        "XRP": 0.6001
       }
     },
     {
-      "id": "2e94",
-      "timestamp": "2024-03-18T20:31:31.985Z",
+      "id": "fcdb",
+      "timestamp": "2024-03-19T20:30:21.196Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67188.74
+        "label": "XRP",
+        "XRP": 0.6001
       }
     },
     {
-      "id": "e6b5",
-      "timestamp": "2024-03-18T20:31:37.023Z",
+      "id": "c819",
+      "timestamp": "2024-03-19T20:30:26.339Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67188.74
+        "label": "XRP",
+        "XRP": 0.6
       }
     },
     {
-      "id": "4a65",
-      "timestamp": "2024-03-18T20:31:41.982Z",
+      "id": "6215",
+      "timestamp": "2024-03-19T20:30:31.204Z",
       "data": {
-        "label": "BTC",
-        "BTC": 67188.74
+        "label": "XRP",
+        "XRP": 0.6
       }
     },
     {
-      "id": "84dd",
-      "timestamp": "2024-03-19T18:57:47.036Z",
+      "id": "5ccf",
+      "timestamp": "2024-03-19T20:30:36.223Z",
       "data": {
-        "label": "BTC",
-        "BTC": 64767.27
+        "label": "XRP",
+        "XRP": 0.6
       }
     },
     {
-      "id": "b1ec",
-      "timestamp": "2024-03-19T18:57:51.807Z",
+      "id": "fbf9",
+      "timestamp": "2024-03-19T20:30:41.192Z",
       "data": {
-        "label": "BTC",
-        "BTC": 64767.27
+        "label": "XRP",
+        "XRP": 0.6
       }
     },
     {
-      "id": "337d",
-      "timestamp": "2024-03-19T18:57:56.838Z",
+      "id": "28fe",
+      "timestamp": "2024-03-19T20:30:46.226Z",
       "data": {
-        "label": "BTC",
-        "BTC": 64770.83
+        "label": "XRP",
+        "XRP": 0.6003
       }
     },
     {
-      "id": "6ffe",
-      "timestamp": "2024-03-19T20:08:49.432Z",
+      "id": "a67a",
+      "timestamp": "2024-03-19T20:30:51.191Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63846.48
+        "label": "XRP",
+        "XRP": 0.6003
       }
     },
     {
-      "id": "e857",
-      "timestamp": "2024-03-19T20:08:58.864Z",
+      "id": "4b7e",
+      "timestamp": "2024-03-19T20:30:56.227Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63872.56
+        "label": "XRP",
+        "XRP": 0.6008
       }
     },
     {
-      "id": "00ef",
-      "timestamp": "2024-03-19T20:09:03.294Z",
+      "id": "7149",
+      "timestamp": "2024-03-19T20:31:01.189Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63872.56
+        "label": "XRP",
+        "XRP": 0.6008
       }
     },
     {
-      "id": "3199",
-      "timestamp": "2024-03-19T20:09:09.737Z",
+      "id": "7ca7",
+      "timestamp": "2024-03-19T20:31:06.343Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63863.71
+        "label": "XRP",
+        "XRP": 0.6007
       }
     },
     {
-      "id": "abf7",
-      "timestamp": "2024-03-19T20:09:13.284Z",
+      "id": "3399",
+      "timestamp": "2024-03-19T20:31:09.970Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63863.71
+        "label": "XRP",
+        "XRP": 0.6007
       }
     },
     {
-      "id": "ae01",
-      "timestamp": "2024-03-19T20:09:18.302Z",
+      "id": "033d",
+      "timestamp": "2024-03-19T20:31:14.974Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63863.71
+        "label": "XRP",
+        "XRP": 0.6007
       }
     },
     {
-      "id": "4283",
-      "timestamp": "2024-03-19T20:09:21.123Z",
+      "id": "0682",
+      "timestamp": "2024-03-19T20:31:17.218Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6008
+      }
+    },
+    {
+      "id": "e085",
+      "timestamp": "2024-03-19T20:31:22.201Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6008
+      }
+    },
+    {
+      "id": "f7fd",
+      "timestamp": "2024-03-19T20:31:27.246Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.601
+      }
+    },
+    {
+      "id": "508f",
+      "timestamp": "2024-03-19T20:31:32.194Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.601
+      }
+    },
+    {
+      "id": "dcf0",
+      "timestamp": "2024-03-19T20:31:37.228Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.601
+      }
+    },
+    {
+      "id": "eb9f",
+      "timestamp": "2024-03-19T20:31:42.203Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.601
+      }
+    },
+    {
+      "id": "4e29",
+      "timestamp": "2024-03-19T20:31:47.240Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "938a",
+      "timestamp": "2024-03-19T20:31:52.197Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "2494",
+      "timestamp": "2024-03-19T20:31:57.233Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "098b",
+      "timestamp": "2024-03-19T20:32:02.186Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "e1a5",
+      "timestamp": "2024-03-19T20:32:07.367Z",
       "data": {
         "label": "XRP",
         "XRP": 0.6025
       }
     },
     {
-      "id": "672f",
-      "timestamp": "2024-03-19T20:09:23.337Z",
+      "id": "5142",
+      "timestamp": "2024-03-19T20:32:12.244Z",
       "data": {
         "label": "XRP",
-        "XRP": 0.6025,
-        "BTC": 63847.78
+        "XRP": 0.6025
       }
     },
     {
-      "id": "7bea",
-      "timestamp": "2024-03-19T20:09:26.134Z",
+      "id": "2ab3",
+      "timestamp": "2024-03-19T20:32:17.340Z",
       "data": {
         "label": "XRP",
-        "XRP": 0.6025,
-        "BTC": 63847.78
-      }
-    },
-    {
-      "id": "c91b",
-      "timestamp": "2024-03-19T20:09:28.338Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63847.78
-      }
-    },
-    {
-      "id": "bae1",
-      "timestamp": "2024-03-19T20:09:31.175Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63847.78,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "a817",
-      "timestamp": "2024-03-19T20:09:33.345Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "5026",
-      "timestamp": "2024-03-19T20:09:33.358Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "8a7c",
-      "timestamp": "2024-03-19T20:09:36.136Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "f70c",
-      "timestamp": "2024-03-19T20:09:38.299Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "9b6b",
-      "timestamp": "2024-03-19T20:09:38.358Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "bb9c",
-      "timestamp": "2024-03-19T20:09:41.178Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63767.44,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "7723",
-      "timestamp": "2024-03-19T20:09:43.322Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "95fc",
-      "timestamp": "2024-03-19T20:09:43.361Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "de75",
-      "timestamp": "2024-03-19T20:09:46.140Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "069d",
-      "timestamp": "2024-03-19T20:09:48.301Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "15c3",
-      "timestamp": "2024-03-19T20:09:48.355Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6028
-      }
-    },
-    {
-      "id": "06df",
-      "timestamp": "2024-03-19T20:09:51.153Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63799.99,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "4428",
-      "timestamp": "2024-03-19T20:09:53.357Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "a4a9",
-      "timestamp": "2024-03-19T20:09:53.363Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "a388",
-      "timestamp": "2024-03-19T20:09:56.117Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "e878",
-      "timestamp": "2024-03-19T20:09:58.287Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "c8d4",
-      "timestamp": "2024-03-19T20:09:58.335Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "c96e",
-      "timestamp": "2024-03-19T20:10:01.450Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63794.79,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "f4d0",
-      "timestamp": "2024-03-19T20:10:03.420Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "8023",
-      "timestamp": "2024-03-19T20:10:03.424Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "93c4",
-      "timestamp": "2024-03-19T20:10:06.120Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "e7a6",
-      "timestamp": "2024-03-19T20:10:08.287Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "a3b2",
-      "timestamp": "2024-03-19T20:10:08.333Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6029
-      }
-    },
-    {
-      "id": "bb87",
-      "timestamp": "2024-03-19T20:10:11.696Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "8ea6",
-      "timestamp": "2024-03-19T20:10:13.408Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "421f",
-      "timestamp": "2024-03-19T20:10:13.411Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "19bd",
-      "timestamp": "2024-03-19T20:10:16.122Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "23a1",
-      "timestamp": "2024-03-19T20:10:19.244Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "c7ca",
-      "timestamp": "2024-03-19T20:10:19.249Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "404a",
-      "timestamp": "2024-03-19T20:10:21.287Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63793.35,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "358e",
-      "timestamp": "2024-03-19T20:10:24.294Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "077c",
-      "timestamp": "2024-03-19T20:10:24.333Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "f881",
-      "timestamp": "2024-03-19T20:10:26.253Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "8dd4",
-      "timestamp": "2024-03-19T20:10:29.251Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "530d",
-      "timestamp": "2024-03-19T20:10:29.256Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "f395",
-      "timestamp": "2024-03-19T20:10:31.302Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63779.9,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "398e",
-      "timestamp": "2024-03-19T20:10:34.285Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "68d9",
-      "timestamp": "2024-03-19T20:10:34.291Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "853a",
-      "timestamp": "2024-03-19T20:10:36.246Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "9e4e",
-      "timestamp": "2024-03-19T20:10:39.242Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "8834",
-      "timestamp": "2024-03-19T20:10:39.249Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6022
-      }
-    },
-    {
-      "id": "2eea",
-      "timestamp": "2024-03-19T20:10:41.340Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63819.08,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "b9c2",
-      "timestamp": "2024-03-19T20:10:44.466Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "4905",
-      "timestamp": "2024-03-19T20:10:44.477Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "23af",
-      "timestamp": "2024-03-19T20:10:46.265Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "98ff",
-      "timestamp": "2024-03-19T20:10:48.284Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "0853",
-      "timestamp": "2024-03-19T20:10:48.335Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "284c",
-      "timestamp": "2024-03-19T20:10:51.284Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63774.03,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "cff9",
-      "timestamp": "2024-03-19T20:10:54.289Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "ea79",
-      "timestamp": "2024-03-19T20:10:54.293Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "ddfc",
-      "timestamp": "2024-03-19T20:10:56.248Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "b26c",
-      "timestamp": "2024-03-19T20:10:59.241Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "4f66",
-      "timestamp": "2024-03-19T20:10:59.245Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "c2b8",
-      "timestamp": "2024-03-19T20:11:01.489Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63781.96,
         "XRP": 0.6025
       }
     },
     {
-      "id": "d7c3",
-      "timestamp": "2024-03-19T20:11:04.278Z",
+      "id": "6266",
+      "timestamp": "2024-03-19T20:32:22.263Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
+        "label": "XRP",
         "XRP": 0.6025
       }
     },
     {
-      "id": "b5cc",
-      "timestamp": "2024-03-19T20:11:04.319Z",
+      "id": "88ef",
+      "timestamp": "2024-03-19T20:32:27.580Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
-        "XRP": 0.6025
-      }
-    },
-    {
-      "id": "42b3",
-      "timestamp": "2024-03-19T20:11:06.268Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
-        "XRP": 0.6025
-      }
-    },
-    {
-      "id": "3e4c",
-      "timestamp": "2024-03-19T20:11:09.256Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
-        "XRP": 0.6025
-      }
-    },
-    {
-      "id": "6188",
-      "timestamp": "2024-03-19T20:11:09.274Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
-        "XRP": 0.6025
-      }
-    },
-    {
-      "id": "c7a7",
-      "timestamp": "2024-03-19T20:11:11.290Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63746.92,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "331d",
-      "timestamp": "2024-03-19T20:11:14.283Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "b999",
-      "timestamp": "2024-03-19T20:11:14.285Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "27a2",
-      "timestamp": "2024-03-19T20:11:16.239Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "b2dc",
-      "timestamp": "2024-03-19T20:11:19.331Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "8e51",
-      "timestamp": "2024-03-19T20:11:19.334Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "5439",
-      "timestamp": "2024-03-19T20:11:21.276Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63861.75,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "4ea6",
-      "timestamp": "2024-03-19T20:11:24.416Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "b815",
-      "timestamp": "2024-03-19T20:11:24.421Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "312d",
-      "timestamp": "2024-03-19T20:11:26.260Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "08cf",
-      "timestamp": "2024-03-19T20:11:29.253Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "4ef9",
-      "timestamp": "2024-03-19T20:11:29.257Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "325e",
-      "timestamp": "2024-03-19T20:11:31.297Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63833.56,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "8b3e",
-      "timestamp": "2024-03-19T20:11:34.429Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "f331",
-      "timestamp": "2024-03-19T20:11:34.434Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "99dc",
-      "timestamp": "2024-03-19T20:11:36.259Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "6f6d",
-      "timestamp": "2024-03-19T20:11:39.245Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "44af",
-      "timestamp": "2024-03-19T20:11:39.247Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6023
-      }
-    },
-    {
-      "id": "bf6f",
-      "timestamp": "2024-03-19T20:11:41.569Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "345a",
-      "timestamp": "2024-03-19T20:11:44.295Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "e0f8",
-      "timestamp": "2024-03-19T20:11:44.292Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "2770",
-      "timestamp": "2024-03-19T20:11:46.257Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63743.83,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "e94c",
-      "timestamp": "2024-03-19T20:12:00.413Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "3106",
-      "timestamp": "2024-03-19T20:12:00.447Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44,
-        "XRP": 0.6026
-      }
-    },
-    {
-      "id": "badd",
-      "timestamp": "2024-03-19T20:12:00.458Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "56de",
-      "timestamp": "2024-03-19T20:12:01.108Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44,
-        "XRP": 0.6021
-      }
-    },
-    {
-      "id": "056d",
-      "timestamp": "2024-03-19T20:12:02.089Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44
-      }
-    },
-    {
-      "id": "5475",
-      "timestamp": "2024-03-19T20:12:07.097Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63764.44
-      }
-    },
-    {
-      "id": "71b8",
-      "timestamp": "2024-03-19T20:12:12.122Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63721.86
-      }
-    },
-    {
-      "id": "c15c",
-      "timestamp": "2024-03-19T20:12:17.082Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63721.86
-      }
-    },
-    {
-      "id": "2a22",
-      "timestamp": "2024-03-19T20:12:22.835Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63723.47
-      }
-    },
-    {
-      "id": "2fe2",
-      "timestamp": "2024-03-19T20:12:27.087Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63723.47
-      }
-    },
-    {
-      "id": "2563",
-      "timestamp": "2024-03-19T20:12:28.906Z",
-      "data": {
-        "label": "BTC",
-        "BTC": 63723.47
+        "label": "XRP",
+        "XRP": 0.6022
       }
     },
     {
-      "id": "7acc",
-      "timestamp": "2024-03-19T20:12:33.966Z",
+      "id": "31a1",
+      "timestamp": "2024-03-19T20:32:32.256Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63750.48
+        "label": "XRP",
+        "XRP": 0.6022
       }
     },
     {
-      "id": "71b6",
-      "timestamp": "2024-03-19T20:12:38.913Z",
+      "id": "10dd",
+      "timestamp": "2024-03-19T20:32:37.475Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63750.48
+        "label": "XRP",
+        "XRP": 0.6022
       }
     },
     {
-      "id": "c3c6",
-      "timestamp": "2024-03-19T20:12:43.953Z",
+      "id": "08fe",
+      "timestamp": "2024-03-19T20:32:42.240Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63747.04
+        "label": "XRP",
+        "XRP": 0.6022
       }
     },
     {
-      "id": "34d3",
-      "timestamp": "2024-03-19T20:12:48.912Z",
+      "id": "ce12",
+      "timestamp": "2024-03-19T20:32:47.702Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63747.04
+        "label": "XRP",
+        "XRP": 0.6028
       }
     },
     {
-      "id": "465f",
-      "timestamp": "2024-03-19T20:12:54.125Z",
+      "id": "c5d9",
+      "timestamp": "2024-03-19T20:34:25.263Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63794.79
+        "label": "XRP",
+        "XRP": 0.6041
       }
     },
     {
-      "id": "837c",
-      "timestamp": "2024-03-19T20:12:58.905Z",
+      "id": "6f7c",
+      "timestamp": "2024-03-19T20:34:29.687Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63794.79
+        "label": "XRP",
+        "XRP": 0.6041
       }
     },
     {
-      "id": "4c8e",
-      "timestamp": "2024-03-19T20:13:04.026Z",
+      "id": "62d5",
+      "timestamp": "2024-03-19T20:34:35.239Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63794.79
+        "label": "XRP",
+        "XRP": 0.6041
       }
     },
     {
-      "id": "a75c",
-      "timestamp": "2024-03-19T20:13:08.907Z",
+      "id": "180e",
+      "timestamp": "2024-03-19T20:34:40.327Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63794.79
+        "label": "XRP",
+        "XRP": 0.6039
       }
     },
     {
-      "id": "c4f3",
-      "timestamp": "2024-03-19T20:13:14.288Z",
+      "id": "ddad",
+      "timestamp": "2024-03-19T20:34:45.245Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63827.26
+        "label": "XRP",
+        "XRP": 0.6039
       }
     },
     {
-      "id": "c32b",
-      "timestamp": "2024-03-19T20:13:19.241Z",
+      "id": "e2cc",
+      "timestamp": "2024-03-19T20:34:50.284Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63827.26
+        "label": "XRP",
+        "XRP": 0.6039
       }
     },
     {
-      "id": "0ce4",
-      "timestamp": "2024-03-19T20:13:24.307Z",
+      "id": "5e6b",
+      "timestamp": "2024-03-19T20:34:55.266Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63815.35
+        "label": "XRP",
+        "XRP": 0.6039
       }
     },
     {
-      "id": "b4ca",
-      "timestamp": "2024-03-19T20:13:29.247Z",
+      "id": "4f90",
+      "timestamp": "2024-03-19T20:35:00.424Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63815.35
+        "label": "XRP",
+        "XRP": 0.6046
       }
     },
     {
-      "id": "0197",
-      "timestamp": "2024-03-19T20:13:34.304Z",
+      "id": "d914",
+      "timestamp": "2024-03-19T20:35:05.282Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63792.57
+        "label": "XRP",
+        "XRP": 0.6046
       }
     },
     {
-      "id": "5709",
-      "timestamp": "2024-03-19T20:13:39.260Z",
+      "id": "09dd",
+      "timestamp": "2024-03-19T20:35:10.614Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63792.57
+        "label": "XRP",
+        "XRP": 0.6046
       }
     },
     {
-      "id": "34e6",
-      "timestamp": "2024-03-19T20:13:44.333Z",
+      "id": "7798",
+      "timestamp": "2024-03-19T20:35:15.245Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63834.22
+        "label": "XRP",
+        "XRP": 0.6046
       }
     },
     {
-      "id": "6257",
-      "timestamp": "2024-03-19T20:13:49.271Z",
+      "id": "e6c6",
+      "timestamp": "2024-03-19T20:35:22.644Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63834.22
+        "label": "XRP",
+        "XRP": 0.6048
       }
     },
     {
-      "id": "6338",
-      "timestamp": "2024-03-19T20:13:54.337Z",
+      "id": "a87d",
+      "timestamp": "2024-03-19T20:35:25.249Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63834.22
+        "label": "XRP",
+        "XRP": 0.6048
       }
     },
     {
-      "id": "eb55",
-      "timestamp": "2024-03-19T20:13:59.250Z",
+      "id": "8ef1",
+      "timestamp": "2024-03-19T20:35:46.411Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63834.22
+        "label": "XRP",
+        "XRP": 0.6048
       }
     },
     {
-      "id": "3134",
-      "timestamp": "2024-03-19T20:14:04.569Z",
+      "id": "def1",
+      "timestamp": "2024-03-19T20:35:47.948Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63888.5
+        "label": "XRP",
+        "XRP": 0.6048
       }
     },
     {
-      "id": "3ff9",
-      "timestamp": "2024-03-19T20:14:09.269Z",
+      "id": "df34",
+      "timestamp": "2024-03-19T20:35:53.252Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63888.5
+        "label": "XRP",
+        "XRP": 0.6048
       }
     },
     {
-      "id": "d2d2",
-      "timestamp": "2024-03-19T20:14:14.286Z",
+      "id": "fbd2",
+      "timestamp": "2024-03-19T20:35:58.290Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63806.45
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "fb94",
-      "timestamp": "2024-03-19T20:14:19.253Z",
+      "id": "7c4a",
+      "timestamp": "2024-03-19T20:36:03.245Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63806.45
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "a136",
-      "timestamp": "2024-03-19T20:14:24.290Z",
+      "id": "485d",
+      "timestamp": "2024-03-19T20:36:07.653Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63775.74
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "fe1d",
-      "timestamp": "2024-03-19T20:14:29.248Z",
+      "id": "8f28",
+      "timestamp": "2024-03-19T20:36:13.246Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63775.74
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "116c",
-      "timestamp": "2024-03-19T20:14:34.812Z",
+      "id": "761b",
+      "timestamp": "2024-03-19T20:36:18.456Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63784.78
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "fca6",
-      "timestamp": "2024-03-19T20:14:39.244Z",
+      "id": "6ed3",
+      "timestamp": "2024-03-19T20:36:23.251Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63784.78
+        "label": "XRP",
+        "XRP": 0.605
       }
     },
     {
-      "id": "fcb7",
-      "timestamp": "2024-03-19T20:14:44.304Z",
+      "id": "2810",
+      "timestamp": "2024-03-19T20:36:28.551Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63805.64
+        "label": "XRP",
+        "XRP": 0.6053
       }
     },
     {
-      "id": "e1a3",
-      "timestamp": "2024-03-19T20:14:49.249Z",
+      "id": "059d",
+      "timestamp": "2024-03-19T20:36:47.099Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63805.64
+        "label": "XRP",
+        "XRP": 0.6056
       }
     },
     {
-      "id": "6254",
-      "timestamp": "2024-03-19T20:14:54.046Z",
+      "id": "f022",
+      "timestamp": "2024-03-19T20:37:46.497Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63842.07
+        "label": "XRP",
+        "XRP": 0.6055
       }
     },
     {
-      "id": "a52c",
-      "timestamp": "2024-03-19T20:14:55.507Z",
+      "id": "bc4d",
+      "timestamp": "2024-03-19T20:38:46.443Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63842.07
+        "label": "XRP",
+        "XRP": 0.6047
       }
     },
     {
-      "id": "d15f",
-      "timestamp": "2024-03-19T20:14:58.743Z",
+      "id": "1050",
+      "timestamp": "2024-03-19T20:39:24.502Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63842.07
+        "label": "XRP",
+        "XRP": 0.6043
       }
     },
     {
-      "id": "8eed",
-      "timestamp": "2024-03-19T20:15:04.462Z",
+      "id": "b183",
+      "timestamp": "2024-03-19T20:39:26.418Z",
       "data": {
         "label": "BTC",
-        "BTC": 63798.72
+        "BTC": 64167.8
       }
     },
     {
-      "id": "7774",
-      "timestamp": "2024-03-19T20:15:08.804Z",
+      "id": "08bf",
+      "timestamp": "2024-03-19T20:39:26.629Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.72
+        "label": "XRP",
+        "XRP": 0.6043
       }
     },
     {
-      "id": "9f15",
-      "timestamp": "2024-03-19T20:15:13.797Z",
+      "id": "711a",
+      "timestamp": "2024-03-19T20:39:27.621Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.72
+        "label": "XRP",
+        "XRP": 0.6043
       }
     },
     {
-      "id": "08e0",
-      "timestamp": "2024-03-19T20:15:17.183Z",
+      "id": "4a2a",
+      "timestamp": "2024-03-19T20:39:31.081Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.72
+        "label": "XRP",
+        "XRP": 0.6043,
+        "BTC": 64167.8
       }
     },
     {
-      "id": "25b5",
-      "timestamp": "2024-03-19T20:15:19.175Z",
+      "id": "c1c4",
+      "timestamp": "2024-03-19T20:39:31.626Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.72
+        "label": "XRP",
+        "XRP": 0.6043,
+        "BTC": 64167.8
       }
     },
     {
-      "id": "9239",
-      "timestamp": "2024-03-19T20:15:24.224Z",
+      "id": "babe",
+      "timestamp": "2024-03-19T20:41:02.232Z",
       "data": {
         "label": "BTC",
-        "BTC": 63771.52
+        "BTC": 63996.82
       }
     },
     {
-      "id": "4320",
-      "timestamp": "2024-03-19T20:15:29.222Z",
+      "id": "1a56",
+      "timestamp": "2024-03-19T20:41:06.667Z",
       "data": {
         "label": "BTC",
-        "BTC": 63771.52
+        "BTC": 63996.82
       }
     },
     {
-      "id": "dc89",
-      "timestamp": "2024-03-19T20:15:34.208Z",
+      "id": "8469",
+      "timestamp": "2024-03-19T20:41:11.624Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63799.23
+        "label": "XRP",
+        "XRP": 0.6035
       }
     },
     {
-      "id": "cb84",
-      "timestamp": "2024-03-19T20:15:39.209Z",
+      "id": "4434",
+      "timestamp": "2024-03-19T20:41:12.263Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63799.23
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63988.94
       }
     },
     {
-      "id": "756d",
-      "timestamp": "2024-03-19T20:15:40.957Z",
+      "id": "37ac",
+      "timestamp": "2024-03-19T20:41:15.880Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63799.23
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63988.94
       }
     },
     {
-      "id": "92db",
-      "timestamp": "2024-03-19T20:15:46.942Z",
+      "id": "d9a7",
+      "timestamp": "2024-03-19T20:41:16.649Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63739.34
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63988.94
       }
     },
     {
-      "id": "f639",
-      "timestamp": "2024-03-19T20:15:50.964Z",
+      "id": "eb9b",
+      "timestamp": "2024-03-19T20:41:21.454Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63739.34
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63988.94
       }
     },
     {
-      "id": "5d83",
-      "timestamp": "2024-03-19T20:15:53.365Z",
+      "id": "2590",
+      "timestamp": "2024-03-19T20:41:22.839Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63739.34
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63971.81
       }
     },
     {
-      "id": "dc21",
-      "timestamp": "2024-03-19T20:15:58.671Z",
+      "id": "d619",
+      "timestamp": "2024-03-19T20:41:26.656Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63760.52
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63971.81
       }
     },
     {
-      "id": "fe4d",
-      "timestamp": "2024-03-19T20:16:01.526Z",
+      "id": "4fe9",
+      "timestamp": "2024-03-19T20:41:30.028Z",
       "data": {
         "label": "BTC",
-        "BTC": 63760.52
+        "BTC": 63971.81
       }
     },
     {
-      "id": "8df6",
-      "timestamp": "2024-03-19T20:16:06.519Z",
+      "id": "a3df",
+      "timestamp": "2024-03-19T20:41:33.744Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63760.52
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63991.12
       }
     },
     {
-      "id": "2690",
-      "timestamp": "2024-03-19T20:16:11.588Z",
+      "id": "1ff2",
+      "timestamp": "2024-03-19T20:41:35.032Z",
       "data": {
         "label": "BTC",
-        "BTC": 63868.15
+        "BTC": 63991.12
       }
     },
     {
-      "id": "ccf8",
-      "timestamp": "2024-03-19T20:16:12.426Z",
+      "id": "7926",
+      "timestamp": "2024-03-19T20:41:36.875Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63868.15
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63991.12
       }
     },
     {
-      "id": "9f61",
-      "timestamp": "2024-03-19T20:16:17.435Z",
+      "id": "a7c1",
+      "timestamp": "2024-03-19T20:41:40.031Z",
       "data": {
         "label": "BTC",
-        "BTC": 63868.15
+        "BTC": 63991.12
       }
     },
     {
-      "id": "0eef",
-      "timestamp": "2024-03-19T20:16:21.588Z",
+      "id": "3f6e",
+      "timestamp": "2024-03-19T20:41:41.804Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63908.21
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63991.12
       }
     },
     {
-      "id": "4b49",
-      "timestamp": "2024-03-19T20:16:26.564Z",
+      "id": "6221",
+      "timestamp": "2024-03-19T20:41:45.321Z",
       "data": {
         "label": "BTC",
-        "BTC": 63908.21
+        "BTC": 64025.99
       }
     },
     {
-      "id": "b5d3",
-      "timestamp": "2024-03-19T20:16:31.635Z",
+      "id": "c61c",
+      "timestamp": "2024-03-19T20:41:46.645Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63853.76
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 64025.99
       }
     },
     {
-      "id": "3bb7",
-      "timestamp": "2024-03-19T20:16:36.556Z",
+      "id": "8ebc",
+      "timestamp": "2024-03-19T20:41:50.031Z",
       "data": {
         "label": "BTC",
-        "BTC": 63853.76
+        "BTC": 64025.99
       }
     },
     {
-      "id": "a56c",
-      "timestamp": "2024-03-19T20:16:41.583Z",
+      "id": "a19f",
+      "timestamp": "2024-03-19T20:41:51.699Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63853.76
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 64025.99
       }
     },
     {
-      "id": "bd6a",
-      "timestamp": "2024-03-19T20:16:47.259Z",
+      "id": "2fec",
+      "timestamp": "2024-03-19T20:41:55.074Z",
       "data": {
         "label": "BTC",
-        "BTC": 63853.76
+        "BTC": 63998.14
       }
     },
     {
-      "id": "c2ae",
-      "timestamp": "2024-03-19T20:16:52.432Z",
+      "id": "4b68",
+      "timestamp": "2024-03-19T20:41:56.646Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63817.01
+        "label": "XRP",
+        "XRP": 0.6035,
+        "BTC": 63998.14
       }
     },
     {
-      "id": "23d3",
-      "timestamp": "2024-03-19T20:16:57.365Z",
+      "id": "f0b1",
+      "timestamp": "2024-03-19T20:42:06.817Z",
       "data": {
         "label": "BTC",
-        "BTC": 63817.01
+        "BTC": 64003.08
       }
     },
     {
-      "id": "c23c",
-      "timestamp": "2024-03-19T20:17:02.378Z",
+      "id": "5e24",
+      "timestamp": "2024-03-19T20:42:11.721Z",
       "data": {
         "label": "BTC",
-        "BTC": 63902.47
+        "BTC": 64003.08
       }
     },
     {
-      "id": "014a",
-      "timestamp": "2024-03-19T20:17:07.250Z",
+      "id": "653d",
+      "timestamp": "2024-03-19T20:42:15.369Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63902.47
+        "label": "XRP",
+        "XRP": 0.6031
       }
     },
     {
-      "id": "8b42",
-      "timestamp": "2024-03-19T20:17:12.320Z",
+      "id": "1551",
+      "timestamp": "2024-03-19T20:42:17.592Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63916.18
+        "label": "ETH",
+        "ETH": 3289.76
       }
     },
     {
-      "id": "0e33",
-      "timestamp": "2024-03-19T20:17:17.247Z",
+      "id": "1286",
+      "timestamp": "2024-03-19T20:42:17.632Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63916.18
+        "label": "ETH",
+        "ETH": 3289.76,
+        "BTC": 64033.36
       }
     },
     {
-      "id": "35cb",
-      "timestamp": "2024-03-19T20:17:22.341Z",
+      "id": "51c6",
+      "timestamp": "2024-03-19T20:42:20.260Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63877.45
+        "label": "ETH",
+        "ETH": 3289.76,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "0f57",
-      "timestamp": "2024-03-19T20:17:27.727Z",
+      "id": "5261",
+      "timestamp": "2024-03-19T20:42:20.458Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63877.45
+        "label": "XRP",
+        "XRP": 0.6031
       }
     },
     {
-      "id": "c9df",
-      "timestamp": "2024-03-19T20:17:31.688Z",
+      "id": "3a32",
+      "timestamp": "2024-03-19T20:42:21.730Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63890.5
+        "label": "XRP",
+        "XRP": 0.6031,
+        "BTC": 64033.36
       }
     },
     {
-      "id": "2780",
-      "timestamp": "2024-03-19T20:17:39.766Z",
+      "id": "b791",
+      "timestamp": "2024-03-19T20:42:22.443Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63890.5
+        "label": "XRP",
+        "XRP": 0.6031,
+        "BTC": 64033.36,
+        "ETH": 3289.76
       }
     },
     {
       "id": "36a2",
-      "timestamp": "2024-03-19T20:17:44.783Z",
+      "timestamp": "2024-03-19T20:42:22.682Z",
       "data": {
         "label": "BTC",
-        "BTC": 63862
+        "BTC": 64033.36
       }
     },
     {
-      "id": "698d",
-      "timestamp": "2024-03-19T20:17:45.756Z",
+      "id": "6efe",
+      "timestamp": "2024-03-19T20:42:23.717Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63862
+        "label": "XRP",
+        "XRP": 0.6031
       }
     },
     {
-      "id": "b8f0",
-      "timestamp": "2024-03-19T20:17:50.625Z",
+      "id": "4b65",
+      "timestamp": "2024-03-19T20:42:24.561Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63862
+        "label": "ETH",
+        "ETH": 3289.76
       }
     },
     {
-      "id": "d1d3",
-      "timestamp": "2024-03-19T20:17:56.226Z",
+      "id": "78a4",
+      "timestamp": "2024-03-19T20:42:25.280Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63837.68
+        "label": "ETH",
+        "ETH": 3289.76,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "29d4",
-      "timestamp": "2024-03-19T20:18:00.677Z",
+      "id": "9bda",
+      "timestamp": "2024-03-19T20:42:25.447Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63837.68
+        "label": "ETH",
+        "ETH": 3289.76,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "cacc",
-      "timestamp": "2024-03-19T20:18:06.225Z",
+      "id": "0fbf",
+      "timestamp": "2024-03-19T20:42:26.767Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63826.34
+        "label": "ETH",
+        "ETH": 3289.76,
+        "XRP": 0.6031,
+        "BTC": 64033.36
       }
     },
     {
-      "id": "a855",
-      "timestamp": "2024-03-19T20:18:10.697Z",
+      "id": "ce29",
+      "timestamp": "2024-03-19T20:42:27.130Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63826.34
+        "label": "DOGE",
+        "DOGE": 0.1324
       }
     },
     {
-      "id": "30c7",
-      "timestamp": "2024-03-19T20:18:16.246Z",
+      "id": "4827",
+      "timestamp": "2024-03-19T20:42:27.567Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63859.72
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82
       }
     },
     {
-      "id": "086b",
-      "timestamp": "2024-03-19T20:18:20.708Z",
+      "id": "937f",
+      "timestamp": "2024-03-19T20:42:27.694Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63859.72
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36
       }
     },
     {
-      "id": "3a65",
-      "timestamp": "2024-03-19T20:18:26.242Z",
+      "id": "ac5f",
+      "timestamp": "2024-03-19T20:42:28.724Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63859.72
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "1f6d",
-      "timestamp": "2024-03-19T20:18:30.622Z",
+      "id": "3baf",
+      "timestamp": "2024-03-19T20:42:29.631Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63859.72
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "294f",
-      "timestamp": "2024-03-19T20:18:36.235Z",
+      "id": "b07f",
+      "timestamp": "2024-03-19T20:42:30.251Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.15
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "beba",
-      "timestamp": "2024-03-19T20:18:40.720Z",
+      "id": "0296",
+      "timestamp": "2024-03-19T20:42:30.461Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63798.15
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "67cd",
-      "timestamp": "2024-03-19T20:18:46.231Z",
+      "id": "49ec",
+      "timestamp": "2024-03-19T20:42:31.713Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63803.36
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "a90b",
-      "timestamp": "2024-03-19T20:18:50.703Z",
+      "id": "04c5",
+      "timestamp": "2024-03-19T20:42:32.168Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63803.36
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "a8e2",
-      "timestamp": "2024-03-19T20:18:56.243Z",
+      "id": "2ff3",
+      "timestamp": "2024-03-19T20:42:32.455Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63807.55
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "6faf",
-      "timestamp": "2024-03-19T20:19:00.661Z",
+      "id": "1fca",
+      "timestamp": "2024-03-19T20:42:32.672Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63807.55
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "a763",
-      "timestamp": "2024-03-19T20:19:06.837Z",
+      "id": "b40a",
+      "timestamp": "2024-03-19T20:42:33.712Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63837.41
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "76d6",
-      "timestamp": "2024-03-19T20:19:11.332Z",
+      "id": "9644",
+      "timestamp": "2024-03-19T20:42:34.552Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63837.41
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "7674",
-      "timestamp": "2024-03-19T20:19:16.895Z",
+      "id": "6804",
+      "timestamp": "2024-03-19T20:42:35.282Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63787.05
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "fc6d",
-      "timestamp": "2024-03-19T20:19:21.292Z",
+      "id": "508d",
+      "timestamp": "2024-03-19T20:42:35.469Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63787.05
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64033.36,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "4a2d",
-      "timestamp": "2024-03-19T20:19:27.459Z",
+      "id": "2294",
+      "timestamp": "2024-03-19T20:42:36.901Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63780.65
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "1569",
-      "timestamp": "2024-03-19T20:19:32.525Z",
+      "id": "f22f",
+      "timestamp": "2024-03-19T20:42:37.612Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63780.65
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.82,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "9d87",
-      "timestamp": "2024-03-19T20:19:38.584Z",
+      "id": "03ca",
+      "timestamp": "2024-03-19T20:42:37.657Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63754.7
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "6294",
-      "timestamp": "2024-03-19T20:19:43.279Z",
+      "id": "3f7d",
+      "timestamp": "2024-03-19T20:42:37.769Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63754.7
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "d549",
-      "timestamp": "2024-03-19T20:19:48.451Z",
+      "id": "ac3a",
+      "timestamp": "2024-03-19T20:42:38.700Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63740
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "9ac9",
-      "timestamp": "2024-03-19T20:19:53.295Z",
+      "id": "5388",
+      "timestamp": "2024-03-19T20:42:39.566Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63740
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "af0c",
-      "timestamp": "2024-03-19T20:20:01.067Z",
+      "id": "bb27",
+      "timestamp": "2024-03-19T20:42:40.242Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63733.91
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "4538",
-      "timestamp": "2024-03-19T20:20:06.260Z",
+      "id": "b307",
+      "timestamp": "2024-03-19T20:42:40.462Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63733.91
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "ce00",
-      "timestamp": "2024-03-19T20:20:11.601Z",
+      "id": "312a",
+      "timestamp": "2024-03-19T20:42:41.719Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63721.69
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "1788",
-      "timestamp": "2024-03-19T20:20:16.305Z",
+      "id": "db87",
+      "timestamp": "2024-03-19T20:42:42.194Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63721.69
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "3f38",
-      "timestamp": "2024-03-19T20:20:21.370Z",
+      "id": "adbe",
+      "timestamp": "2024-03-19T20:42:42.506Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63721.69
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "8acc",
-      "timestamp": "2024-03-19T20:20:46.305Z",
+      "id": "c757",
+      "timestamp": "2024-03-19T20:42:42.724Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63721.76
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "0ecf",
-      "timestamp": "2024-03-19T20:21:46.304Z",
+      "id": "2bd2",
+      "timestamp": "2024-03-19T20:42:43.704Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63701.75
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "b03b",
-      "timestamp": "2024-03-19T20:22:05.962Z",
+      "id": "0cd0",
+      "timestamp": "2024-03-19T20:42:44.574Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63687.96
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6031
       }
     },
     {
-      "id": "3e1b",
-      "timestamp": "2024-03-19T20:22:05.974Z",
+      "id": "bce3",
+      "timestamp": "2024-03-19T20:42:45.380Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63687.96
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "d851",
-      "timestamp": "2024-03-19T20:22:09.285Z",
+      "id": "1316",
+      "timestamp": "2024-03-19T20:42:45.460Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63687.96
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64034.04,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "f5da",
-      "timestamp": "2024-03-19T20:22:14.233Z",
+      "id": "41d2",
+      "timestamp": "2024-03-19T20:42:46.803Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63687.96
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "745c",
-      "timestamp": "2024-03-19T20:22:19.318Z",
+      "id": "7ea1",
+      "timestamp": "2024-03-19T20:42:47.225Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63670.73
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "275b",
-      "timestamp": "2024-03-19T20:22:24.244Z",
+      "id": "53d1",
+      "timestamp": "2024-03-19T20:42:47.510Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63670.73
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "aec3",
-      "timestamp": "2024-03-19T20:22:29.561Z",
+      "id": "71dc",
+      "timestamp": "2024-03-19T20:42:47.691Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63680.16
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "d083",
-      "timestamp": "2024-03-19T20:22:34.235Z",
+      "id": "0401",
+      "timestamp": "2024-03-19T20:42:48.724Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63680.16
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "6d45",
-      "timestamp": "2024-03-19T20:22:39.285Z",
+      "id": "3d66",
+      "timestamp": "2024-03-19T20:42:49.564Z",
       "data": {
-        "label": "BTC",
-        "BTC": 63678.79
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
       }
     },
     {
-      "id": "a643",
-      "timestamp": "2024-03-19T20:22:40.036Z",
+      "id": "aefc",
+      "timestamp": "2024-03-19T20:42:50.259Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "af29",
+      "timestamp": "2024-03-19T20:42:50.455Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "1177",
+      "timestamp": "2024-03-19T20:42:51.716Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "18cf",
+      "timestamp": "2024-03-19T20:42:52.223Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "594f",
+      "timestamp": "2024-03-19T20:42:52.513Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "40f1",
+      "timestamp": "2024-03-19T20:42:52.733Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "8088",
+      "timestamp": "2024-03-19T20:42:53.710Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "bee0",
+      "timestamp": "2024-03-19T20:42:54.590Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "0595",
+      "timestamp": "2024-03-19T20:42:55.548Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "56fe",
+      "timestamp": "2024-03-19T20:42:55.551Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64019.18,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "f6bf",
+      "timestamp": "2024-03-19T20:42:56.805Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "ETH": 3291.06,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "4b38",
+      "timestamp": "2024-03-19T20:42:57.947Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "2f7b",
+      "timestamp": "2024-03-19T20:42:57.950Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.06,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "376c",
+      "timestamp": "2024-03-19T20:42:57.967Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.83,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "22a8",
+      "timestamp": "2024-03-19T20:42:58.709Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.83,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "aa87",
+      "timestamp": "2024-03-19T20:42:59.643Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.83,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "0878",
+      "timestamp": "2024-03-19T20:43:00.254Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.83,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "0588",
+      "timestamp": "2024-03-19T20:43:00.512Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324,
+        "ETH": 3291.83,
+        "BTC": 64024.14,
+        "XRP": 0.6035
+      }
+    },
+    {
+      "id": "99ff",
+      "timestamp": "2024-03-19T20:43:01.820Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324
+      }
+    },
+    {
+      "id": "f432",
+      "timestamp": "2024-03-19T20:43:06.899Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1324
+      }
+    },
+    {
+      "id": "3aa0",
+      "timestamp": "2024-03-19T20:43:11.121Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1322
+      }
+    },
+    {
+      "id": "2002",
+      "timestamp": "2024-03-19T20:43:16.064Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1322
+      }
+    },
+    {
+      "id": "1a28",
+      "timestamp": "2024-03-19T20:43:19.714Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1322
+      }
+    },
+    {
+      "id": "2ca4",
+      "timestamp": "2024-03-19T20:43:24.782Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1321
+      }
+    },
+    {
+      "id": "18a3",
+      "timestamp": "2024-03-19T20:43:29.748Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1321
+      }
+    },
+    {
+      "id": "1e9a",
+      "timestamp": "2024-03-19T20:43:34.792Z",
       "data": {
         "label": "DOGE",
         "DOGE": 0.132
       }
     },
     {
-      "id": "4073",
-      "timestamp": "2024-03-19T20:22:44.240Z",
+      "id": "f2a6",
+      "timestamp": "2024-03-19T20:43:39.747Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.132,
-        "BTC": 63678.79
+        "DOGE": 0.132
       }
     },
     {
-      "id": "a0ab",
-      "timestamp": "2024-03-19T20:22:44.932Z",
+      "id": "515d",
+      "timestamp": "2024-03-19T20:43:44.909Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.132,
-        "BTC": 63678.79
+        "DOGE": 0.1319
       }
     },
     {
-      "id": "319a",
-      "timestamp": "2024-03-19T20:22:49.344Z",
+      "id": "6d98",
+      "timestamp": "2024-03-19T20:43:49.749Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.132,
-        "BTC": 63692.22
+        "DOGE": 0.1319
       }
     },
     {
-      "id": "ca5a",
-      "timestamp": "2024-03-19T20:22:50.269Z",
+      "id": "89c7",
+      "timestamp": "2024-03-19T20:43:53.793Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63692.22
+        "DOGE": 0.1319
       }
     },
     {
-      "id": "723c",
-      "timestamp": "2024-03-19T20:22:54.239Z",
+      "id": "fb06",
+      "timestamp": "2024-03-19T20:43:58.838Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63692.22
+        "DOGE": 0.1318
       }
     },
     {
-      "id": "d23a",
-      "timestamp": "2024-03-19T20:22:54.937Z",
+      "id": "7b97",
+      "timestamp": "2024-03-19T20:44:03.046Z",
       "data": {
-        "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63692.22
+        "label": "XRP",
+        "XRP": 0.6023
       }
     },
     {
-      "id": "2325",
-      "timestamp": "2024-03-19T20:22:59.452Z",
+      "id": "f439",
+      "timestamp": "2024-03-19T20:44:03.803Z",
       "data": {
-        "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63695.88
+        "label": "XRP",
+        "XRP": 0.6023,
+        "DOGE": 0.1318
       }
     },
     {
-      "id": "ee53",
-      "timestamp": "2024-03-19T20:23:00.214Z",
+      "id": "6c0e",
+      "timestamp": "2024-03-19T20:44:06.232Z",
       "data": {
-        "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63695.88
+        "label": "XRP",
+        "XRP": 0.6023,
+        "DOGE": 0.1318
       }
     },
     {
-      "id": "85c4",
-      "timestamp": "2024-03-19T20:23:04.233Z",
+      "id": "2c1e",
+      "timestamp": "2024-03-19T20:44:09.121Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6023,
+        "DOGE": 0.1319
+      }
+    },
+    {
+      "id": "b25d",
+      "timestamp": "2024-03-19T20:44:11.254Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6023,
+        "DOGE": 0.1319
+      }
+    },
+    {
+      "id": "4205",
+      "timestamp": "2024-03-19T20:44:13.801Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.6023,
+        "DOGE": 0.1319
+      }
+    },
+    {
+      "id": "6209",
+      "timestamp": "2024-03-19T20:44:15.073Z",
       "data": {
         "label": "DOGE",
-        "DOGE": 0.1321,
-        "BTC": 63695.88
+        "DOGE": 0.1319
+      }
+    },
+    {
+      "id": "e6ae",
+      "timestamp": "2024-03-19T20:44:16.221Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6023
+      }
+    },
+    {
+      "id": "3157",
+      "timestamp": "2024-03-19T20:44:18.836Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6023
+      }
+    },
+    {
+      "id": "aa51",
+      "timestamp": "2024-03-19T20:44:20.060Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6023
+      }
+    },
+    {
+      "id": "5f45",
+      "timestamp": "2024-03-19T20:44:21.733Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "62bc",
+      "timestamp": "2024-03-19T20:44:24.233Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "12a7",
+      "timestamp": "2024-03-19T20:44:25.104Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "e185",
+      "timestamp": "2024-03-19T20:44:26.214Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "6a83",
+      "timestamp": "2024-03-19T20:44:28.822Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "f8ad",
+      "timestamp": "2024-03-19T20:44:30.068Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "447b",
+      "timestamp": "2024-03-19T20:44:30.653Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "55ec",
+      "timestamp": "2024-03-19T20:44:31.251Z",
+      "data": {
+        "label": "XRP",
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "4f38",
+      "timestamp": "2024-03-19T20:44:31.475Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317
+      }
+    },
+    {
+      "id": "0f7b",
+      "timestamp": "2024-03-19T20:44:33.787Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317
+      }
+    },
+    {
+      "id": "d75b",
+      "timestamp": "2024-03-19T20:44:35.065Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317
+      }
+    },
+    {
+      "id": "7e18",
+      "timestamp": "2024-03-19T20:44:35.646Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "2ac6",
+      "timestamp": "2024-03-19T20:44:36.219Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "7ab8",
+      "timestamp": "2024-03-19T20:44:36.469Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "3aa7",
+      "timestamp": "2024-03-19T20:44:38.825Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "0dd8",
+      "timestamp": "2024-03-19T20:44:40.067Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.602
+      }
+    },
+    {
+      "id": "dfb0",
+      "timestamp": "2024-03-19T20:44:40.683Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "3296",
+      "timestamp": "2024-03-19T20:44:41.212Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "f29d",
+      "timestamp": "2024-03-19T20:44:41.469Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "deab",
+      "timestamp": "2024-03-19T20:44:43.799Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "0d94",
+      "timestamp": "2024-03-19T20:44:45.262Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "9029",
+      "timestamp": "2024-03-19T20:44:46.240Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "509d",
+      "timestamp": "2024-03-19T20:44:46.244Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "71fb",
+      "timestamp": "2024-03-19T20:44:47.840Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "4aa8",
+      "timestamp": "2024-03-19T20:44:49.297Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "e3b4",
+      "timestamp": "2024-03-19T20:44:50.251Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6019
+      }
+    },
+    {
+      "id": "5fd3",
+      "timestamp": "2024-03-19T20:44:51.511Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "e9dc",
+      "timestamp": "2024-03-19T20:44:51.522Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "0fe6",
+      "timestamp": "2024-03-19T20:44:52.239Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "c331",
+      "timestamp": "2024-03-19T20:44:54.282Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "0797",
+      "timestamp": "2024-03-19T20:44:55.250Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "c1dc",
+      "timestamp": "2024-03-19T20:44:56.252Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "0963",
+      "timestamp": "2024-03-19T20:44:56.282Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "ca17",
+      "timestamp": "2024-03-19T20:44:57.251Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "d230",
+      "timestamp": "2024-03-19T20:44:59.356Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "73c5",
+      "timestamp": "2024-03-19T20:45:00.254Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "949a",
+      "timestamp": "2024-03-19T20:45:02.252Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "c768",
+      "timestamp": "2024-03-19T20:45:02.876Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "dff6",
+      "timestamp": "2024-03-19T20:45:02.881Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "1d18",
+      "timestamp": "2024-03-19T20:45:04.253Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "fb69",
+      "timestamp": "2024-03-19T20:45:05.248Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "a9f6",
+      "timestamp": "2024-03-19T20:45:06.269Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "aa84",
+      "timestamp": "2024-03-19T20:45:06.272Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "b356",
+      "timestamp": "2024-03-19T20:45:07.290Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1319,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "4049",
+      "timestamp": "2024-03-19T20:45:09.635Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "a823",
+      "timestamp": "2024-03-19T20:45:10.243Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "c8c9",
+      "timestamp": "2024-03-19T20:45:11.264Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "d77f",
+      "timestamp": "2024-03-19T20:45:11.487Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "2175",
+      "timestamp": "2024-03-19T20:45:12.259Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "1e03",
+      "timestamp": "2024-03-19T20:45:14.246Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "fc2a",
+      "timestamp": "2024-03-19T20:45:15.254Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "9d3c",
+      "timestamp": "2024-03-19T20:45:16.281Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "ec82",
+      "timestamp": "2024-03-19T20:45:16.305Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "1187",
+      "timestamp": "2024-03-19T20:45:17.318Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "9113",
+      "timestamp": "2024-03-19T20:45:19.374Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "3f3d",
+      "timestamp": "2024-03-19T20:45:20.261Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "26f1",
+      "timestamp": "2024-03-19T20:45:21.250Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "24cc",
+      "timestamp": "2024-03-19T20:45:21.279Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "70b8",
+      "timestamp": "2024-03-19T20:45:22.249Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "5ab7",
+      "timestamp": "2024-03-19T20:45:24.251Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "1afe",
+      "timestamp": "2024-03-19T20:45:25.248Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6015
+      }
+    },
+    {
+      "id": "ae38",
+      "timestamp": "2024-03-19T20:45:26.316Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "1c71",
+      "timestamp": "2024-03-19T20:45:26.332Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "3bd4",
+      "timestamp": "2024-03-19T20:45:27.251Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "94f7",
+      "timestamp": "2024-03-19T20:45:29.640Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "53b3",
+      "timestamp": "2024-03-19T20:45:33.144Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "c3d6",
+      "timestamp": "2024-03-19T20:45:33.149Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "d248",
+      "timestamp": "2024-03-19T20:45:33.151Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "8f0d",
+      "timestamp": "2024-03-19T20:45:33.178Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "ebfc",
+      "timestamp": "2024-03-19T20:45:34.252Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "7267",
+      "timestamp": "2024-03-19T20:45:35.258Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "6a7c",
+      "timestamp": "2024-03-19T20:45:36.394Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "79de",
+      "timestamp": "2024-03-19T20:45:36.412Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "5eff",
+      "timestamp": "2024-03-19T20:45:37.248Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "ceec",
+      "timestamp": "2024-03-19T20:45:41.155Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "4d90",
+      "timestamp": "2024-03-19T20:45:41.157Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "c353",
+      "timestamp": "2024-03-19T20:45:41.240Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "311f",
+      "timestamp": "2024-03-19T20:45:41.243Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "35b3",
+      "timestamp": "2024-03-19T20:45:42.246Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "daa6",
+      "timestamp": "2024-03-19T20:45:44.256Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "01e1",
+      "timestamp": "2024-03-19T20:45:46.262Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6016
+      }
+    },
+    {
+      "id": "497b",
+      "timestamp": "2024-03-19T20:45:46.689Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6017
+      }
+    },
+    {
+      "id": "3d3d",
+      "timestamp": "2024-03-19T20:45:46.692Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1316,
+        "XRP": 0.6017
+      }
+    },
+    {
+      "id": "a4b4",
+      "timestamp": "2024-03-19T20:46:46.378Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6017
+      }
+    },
+    {
+      "id": "286c",
+      "timestamp": "2024-03-19T20:46:46.382Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6017
+      }
+    },
+    {
+      "id": "9fd9",
+      "timestamp": "2024-03-19T20:46:46.385Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6017
+      }
+    },
+    {
+      "id": "3f2e",
+      "timestamp": "2024-03-19T20:46:46.418Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6013
+      }
+    },
+    {
+      "id": "00b6",
+      "timestamp": "2024-03-19T20:46:46.421Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1318,
+        "XRP": 0.6013
+      }
+    },
+    {
+      "id": "336c",
+      "timestamp": "2024-03-19T20:47:46.356Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "XRP": 0.6013
+      }
+    },
+    {
+      "id": "f7d2",
+      "timestamp": "2024-03-19T20:47:46.362Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "XRP": 0.6013
+      }
+    },
+    {
+      "id": "7a42",
+      "timestamp": "2024-03-19T20:47:46.359Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "XRP": 0.6013
+      }
+    },
+    {
+      "id": "1c5b",
+      "timestamp": "2024-03-19T20:47:46.424Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "XRP": 0.6029
+      }
+    },
+    {
+      "id": "59ac",
+      "timestamp": "2024-03-19T20:47:46.427Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1323,
+        "XRP": 0.6029
+      }
+    },
+    {
+      "id": "6b24",
+      "timestamp": "2024-03-19T20:48:46.303Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6029
+      }
+    },
+    {
+      "id": "a407",
+      "timestamp": "2024-03-19T20:48:46.306Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6029
+      }
+    },
+    {
+      "id": "a420",
+      "timestamp": "2024-03-19T20:48:46.308Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6029
+      }
+    },
+    {
+      "id": "a0b9",
+      "timestamp": "2024-03-19T20:48:46.390Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6041
+      }
+    },
+    {
+      "id": "34ff",
+      "timestamp": "2024-03-19T20:48:46.394Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6041
+      }
+    },
+    {
+      "id": "eb8d",
+      "timestamp": "2024-03-19T20:49:46.309Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6053
+      }
+    },
+    {
+      "id": "5bcd",
+      "timestamp": "2024-03-19T20:49:46.311Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1325,
+        "XRP": 0.6053
+      }
+    },
+    {
+      "id": "4162",
+      "timestamp": "2024-03-19T20:49:46.347Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1329,
+        "XRP": 0.6053
+      }
+    },
+    {
+      "id": "6792",
+      "timestamp": "2024-03-19T20:49:46.350Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1329,
+        "XRP": 0.6053
+      }
+    },
+    {
+      "id": "dc2b",
+      "timestamp": "2024-03-19T20:49:46.369Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1329,
+        "XRP": 0.6053
+      }
+    },
+    {
+      "id": "51b3",
+      "timestamp": "2024-03-19T20:50:24.622Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1328
+      }
+    },
+    {
+      "id": "bc5f",
+      "timestamp": "2024-03-19T20:50:29.265Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1328
+      }
+    },
+    {
+      "id": "d7f8",
+      "timestamp": "2024-03-19T20:50:34.356Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1328
+      }
+    },
+    {
+      "id": "89ac",
+      "timestamp": "2024-03-19T20:50:39.247Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1328
+      }
+    },
+    {
+      "id": "ed37",
+      "timestamp": "2024-03-19T20:50:44.285Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1327
+      }
+    },
+    {
+      "id": "e126",
+      "timestamp": "2024-03-19T20:51:46.327Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1329
+      }
+    },
+    {
+      "id": "daea",
+      "timestamp": "2024-03-19T20:52:46.318Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1327
+      }
+    },
+    {
+      "id": "c62c",
+      "timestamp": "2024-03-19T20:53:46.331Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1322
+      }
+    },
+    {
+      "id": "152b",
+      "timestamp": "2024-03-19T20:54:46.443Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.132
+      }
+    },
+    {
+      "id": "d804",
+      "timestamp": "2024-03-19T20:55:46.389Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1321
+      }
+    },
+    {
+      "id": "04d6",
+      "timestamp": "2024-03-19T20:56:46.318Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.1317
+      }
+    },
+    {
+      "id": "6556",
+      "timestamp": "2024-03-19T20:57:46.336Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.132
+      }
+    },
+    {
+      "id": "0eae",
+      "timestamp": "2024-03-19T20:57:50.409Z",
+      "data": {
+        "label": "DOGE",
+        "DOGE": 0.132
       }
     }
   ]

@@ -1,11 +1,38 @@
-<div class="container">
-  <app-tabs></app-tabs>
-  <div class="portfolio-container">
-    <h2>Exchange rates of the day! (USD)</h2>
-    <div class="portfolio">
-      <div *ngFor="let asset of getPortfolioKeys()" class="portfolio-row">
-        <span class="asset-name">{{ asset }}/USD:</span>
-        <span class="asset-rate">{{ portfolio[asset] }}</span>
+<div class="container portfolio-container">
+  <div class="row">
+    <div class="col">
+      <div class="table-responsive">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr class="table-header">
+              <th class="text-center">Symbol</th>
+              <th class="text-center">Price</th>
+              <th class="text-center">Last Update</th>
+              <th class="text-center">Volume 24 Hour</th>
+              <th class="text-center">High 24 Hour</th>
+              <th class="text-center">Low 24 Hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let price of prices" class="table-row">
+              <ng-container
+                *ngIf="
+                  price.FROMSYMBOL.toLowerCase() ===
+                  (selectedCrypto?.label || '').toLowerCase()
+                "
+              >
+                <td class="text-center table-cell">{{ price.FROMSYMBOL }}</td>
+                <td class="text-center table-cell">{{ price.PRICE }}</td>
+                <td class="text-center table-cell">
+                  {{ price.LASTUPDATE | date : "medium" }}
+                </td>
+                <td class="text-center table-cell">{{ price.VOLUME24HOUR }}</td>
+                <td class="text-center table-cell">{{ price.HIGH24HOUR }}</td>
+                <td class="text-center table-cell">{{ price.LOW24HOUR }}</td>
+              </ng-container>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

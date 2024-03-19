@@ -1,47 +1,38 @@
 // portfolio-display.component.scss
 
-// Styling for the container holding the tabs and portfolio display
-.container {
-  padding: 1em;
-}
-
-// Styling for the portfolio container
+// Style for the container
 .portfolio-container {
-  background-color: #f9f9f9;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
-// Styling for the portfolio label
-.portfolio-label {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
+// Style for the table headers
+.table-header {
+  background-color: #343a40; // Dark gray background for the headers
+  color: #ffffff; // White text color
+  font-weight: bold; // Bold font weight
+  border: none; // Remove border
 }
 
-// Styling for each asset row in the portfolio display
-.portfolio-row {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  margin-bottom: 10px;
-  transition: transform 0.2s ease-in-out; // Apply transition to all rows
+// Style for the table rows
+.table-row {
+  cursor: pointer; // Change cursor to pointer on hover
+  transition: background-color 0.3s; // Smooth transition effect
 }
 
-// Styling for the asset name
-.asset-name {
-  font-weight: bold;
-  margin-right: 10px;
-  color: #007bff;
+// Hover effect for table rows
+.table-row:hover {
+  background-color: #f8f9fa; // Light gray background color on hover
 }
 
-// Styling for the asset rate
-.asset-rate {
-  color: #28a745;
+// Style for the table data cells
+.table-cell {
+  vertical-align: middle !important; // Align content vertically in the middle
+  border: none; // Remove border
 }
 
-// Apply hover effect to each asset row
-.portfolio-row:hover {
-  transform: scale(0.95);
+// Responsive styling for the table
+@media (max-width: 767px) {
+  .table-responsive {
+    overflow-x: auto; // Enable horizontal scrolling on small screens
+  }
 }

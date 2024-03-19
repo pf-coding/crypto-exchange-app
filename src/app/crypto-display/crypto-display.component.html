@@ -14,9 +14,13 @@
           <ng-container
             *ngIf="cryptocurrency && cryptocurrency !== 'Description'"
           >
-            <div *ngFor="let asset of getPortfolioKeys()" class="portfolio-row">
-              <div></div>
-            </div>
+            <div
+              *ngFor="let asset of getPortfolioKeys()"
+              class="portfolio-row"
+            ></div>
+            <app-portfolio-display
+              [selectedCrypto]="cryptocurrency"
+            ></app-portfolio-display>
             <button class="delete-button" (click)="deleteTab()">
               Delete Currency
             </button>

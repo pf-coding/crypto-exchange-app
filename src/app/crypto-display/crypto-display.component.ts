@@ -4,6 +4,7 @@ import { interval, Subscription } from 'rxjs';
 import { PortfolioService } from '../services/portfolio.service';
 import { LoadingService } from '../services/loading.service';
 import { TabsComponent } from '../tabs/tabs.component';
+import { PortfolioDisplayComponent } from '../portfolio-display/portfolio-display.component'; // Imported PortfolioDisplayComponent
 
 @Component({
   selector: 'app-crypto-display',
@@ -15,14 +16,19 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
   private refreshSubscription: Subscription | undefined;
   dataSaved: boolean = false; // Flag to indicate whether data is saved successfully
   loading: boolean = false;
+  prices: any[] = []; // Initialize prices array here
   @ViewChild(TabsComponent) tabsComponent!: TabsComponent;
+  @ViewChild(PortfolioDisplayComponent)
+  portfolioDisplayComponent!: PortfolioDisplayComponent;
 
   constructor(
     private route: ActivatedRoute,
     private portfolioService: PortfolioService,
     private router: Router,
     private loadingService: LoadingService
-  ) {}
+  ) {
+    this.cryptocurrency = {};
+  }
 
   onTabSelected(content: string): void {
     // Navigate to the selected cryptocurrency route
@@ -72,6 +78,7 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
             console.error(`No exchange rate found for ${asset}`);
           }
         });
+
         this.saveData(); // Save updated data after each fetch
       },
       (error) => {
@@ -106,5 +113,6 @@ export class CryptoDisplayComponent implements OnInit, OnDestroy {
     this.router.navigateByUrl('/description');
 
     this.tabsComponent.removeTab(label); // Assuming tabsComponent is a reference to your TabsComponent
+    this.portfolioDisplayComponent.prices = []; // Clear prices array in portfolio-display component
   }
 }
